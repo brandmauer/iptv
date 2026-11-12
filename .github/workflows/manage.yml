@@ -1,0 +1,95 @@
+name: manage-sources
+
+# Интерфейс: Actions -> manage-sources -> Run workflow -> заполни форму.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "Действие"
+        type: choice
+        required: true
+        default: list
+        options:
+          - list
+          - add-playlist
+          - remove-playlist
+          - add-delete-group
+          - remove-delete-group
+      name:
+        description: "Имя источника (латиницей). Для remove-playlist - имя ИЛИ ссылка"
+        required: false
+      url:
+        description: "Ссылка на плейлист .m3u/.m3u8 (для add-playlist; для remove-playlist можно вместо имени)"
+        required: false
+      group:
+        description: "add-playlist: принудительная группа (необязательно). *-delete-group: название группы или /регэксп/"
+        required: false
+      radio:
+        description: "Источник - радио"
+        type: boolean
+        default: false
+      check:
+        description: "Проверять потоки (выключи для закрытых по гео/локальных)"
+        type: boolean
+        default: true
+      allow_tokens:
+        description: "Не удалять ссылки с токенами из этого источника"
+        type: boolean
+        default: false
+      rebuild:
+        description: "После изменения сразу запустить сборку"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: iptv-manage
+  cancel-in-progress: false
+
+jobs:
+  manage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: Применить изменение
+        id: do
+        env:                                   # значения через env, не через ${{ }} в команде (защита от инъекций)
+          ACTION: ${{ inputs.action }}
+          NAME: ${{ inputs.name }}
+          URL: ${{ inputs.url }}
+          GROUP: ${{ inputs.group }}
+          RADIO: ${{ inputs.radio }}
+          CHECK: ${{ inputs.check }}
+          ALLOW_TOKENS: ${{ inputs.allow_tokens }}
+        run: |
+          args=("$ACTION" --name "$NAME" --url "$URL" --group "$GROUP")
+          [ "$RADIO" = "true" ] && args+=(--radio)
+          [ "$CHECK" = "false" ] && args+=(--no-check)
+          [ "$ALLOW_TOKENS" = "true" ] && args+=(--allow-tokens)
+          python scripts/manage.py "${args[@]}"
+
+      - name: Сохранить в репозиторий
+        if: steps.do.outputs.changed == 'true'
+        run: |
+          git config user.name "iptv-bot"
+          git config user.email "iptv-bot@users.noreply.github.com"
+          git add config
+          git commit -m "config: ${{ inputs.action }}"
+          for i in 1 2 3; do git pull --rebase --autostash && git push && break || sleep 5; done
+
+      - name: Запустить сборку
+        if: steps.do.outputs.changed == 'true' && inputs.rebuild
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run build.yml --ref "${{ github.ref_name }}"

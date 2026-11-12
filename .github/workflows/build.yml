@@ -2,13 +2,13 @@ name: build-iptv
 
 on:
   schedule:
-    - cron: "23 2 * * *"
-  workflow_dispatch:
+    - cron: "23 2 * * *"        # каждый день 02:23 UTC (~05:23 МСК)
+  workflow_dispatch:             # ручной запуск: Actions -> build-iptv -> Run workflow
   push:
     paths: ["config/**", "scripts/**", ".github/workflows/build.yml"]
 
 permissions:
-  contents: write
+  contents: write                # коммит state/health.json и снимков
   pages: write
   id-token: write
 
@@ -50,4 +50,4 @@ jobs:
           git config user.name "iptv-bot"
           git config user.email "iptv-bot@users.noreply.github.com"
           git add state
-          git diff --cached --quiet || (git commit -m "state: $(date -u +%F)" && git push)
+          git diff --cached --quiet || (git commit -m "state: $(date -u +%F)" && for i in 1 2 3; do git pull --rebase --autostash && git push && break || sleep 5; done)
