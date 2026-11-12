@@ -1,6 +1,6 @@
 {
 "http://1-fss29-s0.streamhoster.com/lv_goodlife45f1/_definst_/broadcast1/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -87,7 +87,7 @@
 "seen": "2026-11-12"
 },
 "http://109.228.50.159:8000/stream.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -103,13 +103,13 @@
 "seen": "2026-11-12"
 },
 "http://109.74.145.11:1935/tv8/ngrp:tv8.stream_all/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://109.92.29.10:1935/tvduga/tvduga/chunklist_w1097511114.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -120,7 +120,7 @@
 "seen": "2026-11-12"
 },
 "http://113.161.6.157:8081/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -146,7 +146,7 @@
 "seen": "2026-11-12"
 },
 "http://119.200.131.11:1935/KBCTV/tv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -172,7 +172,7 @@
 "seen": "2026-11-12"
 },
 "http://123.146.162.24:8013/tslslive/PU2vzMI/hls/live_sd.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -183,7 +183,7 @@
 "seen": "2026-11-12"
 },
 "http://123tv.cdn.ses-ps.com/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -1688,13 +1688,13 @@
 "seen": "2026-11-12"
 },
 "http://130.61.223.48:8000/aac": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "http://135.125.163.25/candie": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -1760,13 +1760,13 @@
 "seen": "2026-11-12"
 },
 "http://148.72.158.239:8111/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://148.72.158.239:8120/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -1797,7 +1797,7 @@
 "seen": "2026-11-12"
 },
 "http://149.56.175.167:5248/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -1864,7 +1864,7 @@
 "seen": "2026-11-12"
 },
 "http://162.213.197.50:8042/128k": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -1990,43 +1990,43 @@
 "seen": "2026-11-12"
 },
 "http://168.119.104.246:8014/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://168.119.104.246:8022/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://168.119.104.246:8036/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://168.119.104.246:8038/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://168.119.104.246:8040/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://168.119.104.246:8042/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://170.79.102.46:8000/stream/39/": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -2196,7 +2196,7 @@
 "seen": "2026-11-12"
 },
 "http://17653.live.streamtheworld.com/SP_R2329710.mp3?tdsdk=js-2.9&swm=false&pname=TDSdk&pversion=2.9&banners=none&burst-time=15&sbmid=47f66e9c-211b-4de9-8a62-3bef2c90d3e5": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -2272,7 +2272,7 @@
 "seen": "2026-11-12"
 },
 "http://178.172.150.248:2530/;": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -2324,7 +2324,7 @@
 "seen": "2026-11-12"
 },
 "http://178.obj.netromedia.com:8000/6": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -2809,7 +2809,7 @@
 "seen": "2026-11-12"
 },
 "http://186.121.206.197/live/daniel/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -2820,7 +2820,7 @@
 "seen": "2026-11-12"
 },
 "http://188.126.1.25:8000/razgrad": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -2931,7 +2931,7 @@
 "seen": "2026-11-12"
 },
 "http://194.195.124.142:8000/low.aac": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -3012,7 +3012,7 @@
 "seen": "2026-11-12"
 },
 "http://194.50.51.34/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -4027,7 +4027,7 @@
 "seen": "2026-11-12"
 },
 "http://198.15.94.34:8012/stream/": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -4058,7 +4058,7 @@
 "seen": "2026-11-12"
 },
 "http://2.58.194.54:8876/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -4099,7 +4099,7 @@
 "seen": "2026-11-12"
 },
 "http://210.210.155.37/x6bnqe/s/s63/index2.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -4145,7 +4145,7 @@
 "seen": "2026-11-12"
 },
 "http://212.95.39.164:8074/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -4502,7 +4502,7 @@
 "seen": "2026-11-12"
 },
 "http://222.179.155.21:1935/ch2.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -4548,13 +4548,13 @@
 "seen": "2026-11-12"
 },
 "http://31.131.139.253:9002/novoros/index.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://31.131.139.253:9002/oplot_hd/index.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -4690,7 +4690,7 @@
 "seen": "2026-11-12"
 },
 "http://31.14.40.237:1935/live/Nabaa/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -4981,7 +4981,7 @@
 "seen": "2026-11-12"
 },
 "http://31.148.5.241/kanal_21/index.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -5721,13 +5721,13 @@
 "seen": "2026-11-12"
 },
 "http://46.4.14.12:9999/btvsvlive/btvsvlive/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://46.4.14.12:9999/intermedia1/intermedia1/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -5859,7 +5859,7 @@
 "seen": "2026-11-12"
 },
 "http://47.23.7.30:8080/live/WIFI-1096k-360p/WIFI-1096k-360p.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -6082,7 +6082,7 @@
 "seen": "2026-11-12"
 },
 "http://5.39.82.157:8020/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -6139,7 +6139,7 @@
 "seen": "2026-11-12"
 },
 "http://584b0aa350b92.streamlock.net:1935/folk-tv/myStream.sdp/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -6180,13 +6180,13 @@
 "seen": "2026-11-12"
 },
 "http://59.23.231.102:1935/live/UBCstream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://593aed234297b.streamlock.net/meervandaag/meervandaag/chunklist_w733465808.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -6197,7 +6197,7 @@
 "seen": "2026-11-12"
 },
 "http://593aed234297b.streamlock.net:1935/gotvsjoerd/gotvsjoerd/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -6334,7 +6334,7 @@
 "seen": "2026-11-12"
 },
 "http://62.80.190.246:8000/PRK128": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -6440,7 +6440,7 @@
 "seen": "2026-11-12"
 },
 "http://69.162.75.218:8722/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -7710,7 +7710,7 @@
 "seen": "2026-11-12"
 },
 "http://80.241.215.175:4000/stream": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "таймаут",
 "seen": "2026-11-12"
@@ -7766,7 +7766,7 @@
 "seen": "2026-11-12"
 },
 "http://82.212.74.2:8000/live/hls/7311.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -7802,7 +7802,7 @@
 "seen": "2026-11-12"
 },
 "http://83.219.150.176:8000/RusKray128kb": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -8015,7 +8015,7 @@
 "seen": "2026-11-12"
 },
 "http://89.205.83.58:8000/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -8096,7 +8096,7 @@
 "seen": "2026-11-12"
 },
 "http://89.38.8.130:39437": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -8127,7 +8127,7 @@
 "seen": "2026-11-12"
 },
 "http://91.121.38.100:8330/;stream/1": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -8706,7 +8706,7 @@
 "seen": "2026-11-12"
 },
 "http://95.216.112.183:8000/stream": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -8837,9 +8837,8 @@
 "seen": "2026-11-12"
 },
 "http://air.radioulitka.ru:8000/ulitka_128": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "таймаут",
 "seen": "2026-11-12"
 },
 "http://air.verdure.net:8881/radio/192": {
@@ -8903,7 +8902,7 @@
 "seen": "2026-11-12"
 },
 "http://amtv1.livestreamingcdn.com/am2abr/tracks-v1a1/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -10121,7 +10120,7 @@
 "seen": "2026-11-12"
 },
 "http://audio1.tustreaming.cl:9850/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -10182,7 +10181,7 @@
 "seen": "2026-11-12"
 },
 "http://badentv-stream2.siebnich.info/rtplive/btv.stream/chunklist_w555673922.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -10198,7 +10197,7 @@
 "seen": "2026-11-12"
 },
 "http://biptv.tv/live/biptvstream_orig/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -10224,7 +10223,7 @@
 "seen": "2026-11-12"
 },
 "http://boliviatv1.srfms.com:5735/live/livestream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -10235,7 +10234,7 @@
 "seen": "2026-11-12"
 },
 "http://broadcast.shoutcheap.com:8153/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -10461,7 +10460,7 @@
 "seen": "2026-11-12"
 },
 "http://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -10497,7 +10496,7 @@
 "seen": "2026-11-12"
 },
 "http://canbroadcast.com:7000/canlican/tv.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -10658,7 +10657,7 @@
 "seen": "2026-11-12"
 },
 "http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -10670,7 +10669,7 @@
 "seen": "2026-11-12"
 },
 "http://cdn-turhalwebtv.yayin.com.tr/turhalwebtv/turhalwebtv/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -10686,13 +10685,13 @@
 "seen": "2026-11-12"
 },
 "http://cdn.credonet.tv:1935/ctv/smil:livecredo.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/chunklist_w84588335.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -10703,7 +10702,7 @@
 "seen": "2026-11-12"
 },
 "http://cdn.instream.audio:9103/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -10759,7 +10758,7 @@
 "seen": "2026-11-12"
 },
 "http://cdn1-gurbet24.yayin.com.tr/gurbet24/ngrp:gurbet24/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -10775,7 +10774,7 @@
 "seen": "2026-11-12"
 },
 "http://cdn10.live-tv.od.ua:8081/7tvod/7tvod/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -10797,7 +10796,7 @@
 "seen": "2026-11-12"
 },
 "http://cdn10.live-tv.od.ua:8081/riood/tisod504/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -11150,13 +11149,13 @@
 "seen": "2026-11-12"
 },
 "http://cloudfront44.lexanetwork.com:1732/hlsrelay003/hls/livestream.sdp.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/chunklist_b1300000.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -11197,13 +11196,13 @@
 "seen": "2026-11-12"
 },
 "http://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://content.uplynk.com/channel/e56ba52a1b9d45ad8c8a033fd83fe480.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -11249,7 +11248,7 @@
 "seen": "2026-11-12"
 },
 "http://ctcstream.com:8002/type=mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -11270,19 +11269,19 @@
 "seen": "2026-11-12"
 },
 "http://d3ktuc8v2sjk6m.cloudfront.net/livetv/ngrp:HouseChannel_all/chucklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://d3ktuc8v2sjk6m.cloudfront.net/livetv/ngrp:TVW2_all/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://d3ktuc8v2sjk6m.cloudfront.net/livetv/ngrp:TVWAIR_all/chucklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -11422,7 +11421,7 @@
 "seen": "2026-11-12"
 },
 "http://dygvideo.dygdigital.com/live/hls/kraltv?m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 104] Connection reset by peer",
 "seen": "2026-11-12"
@@ -11508,7 +11507,7 @@
 "seen": "2026-11-12"
 },
 "http://elfen-tchat.fr:8000/elfen": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -11524,7 +11523,7 @@
 "seen": "2026-11-12"
 },
 "http://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_worldmedium.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -11545,7 +11544,7 @@
 "seen": "2026-11-12"
 },
 "http://eu.stream4cast.com:8036/stream/": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -11597,7 +11596,7 @@
 "seen": "2026-11-12"
 },
 "http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -11767,7 +11766,7 @@
 "seen": "2026-11-12"
 },
 "http://goldfm.nu:8082/goldfm_mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -13928,7 +13927,7 @@
 "seen": "2026-11-12"
 },
 "http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -13987,7 +13986,7 @@
 "seen": "2026-11-12"
 },
 "http://hoabinhtvlive.746b3ddb.cdnviet.com/hoabinhtv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -14948,43 +14947,43 @@
 "seen": "2026-11-12"
 },
 "http://icecast.centaury.cl:7560/SuperStereoNoData1": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://icecast.centaury.cl:7560/SuperStereoNoData2": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://icecast.centaury.cl:7560/SuperStereoNoData3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://icecast.centaury.cl:7560/SuperStereoNoData4": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://icecast.centaury.cl:7560/SuperStereoNoData5": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://icecast.centaury.cl:7560/SuperStereoNoData6": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://icecast.centaury.cl:7560/SuperStereoNoData7": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -15005,7 +15004,7 @@
 "seen": "2026-11-12"
 },
 "http://icecast.stranafm.cdnvideo.ru/stranafm_128": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -15066,7 +15065,7 @@
 "seen": "2026-11-12"
 },
 "http://ip.opoja.tv:1935/tvopoja/tvopoja/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -15252,8 +15251,9 @@
 "seen": "2026-11-12"
 },
 "http://iradio.utalca.cl:8000/fm": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://irkvideo1.orionnet.online/cam2445/tracks-v1/mono.m3u8": {
@@ -15312,7 +15312,7 @@
 "seen": "2026-11-12"
 },
 "http://janus.shoutca.st:8972/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -15343,7 +15343,7 @@
 "seen": "2026-11-12"
 },
 "http://kathy.torontocast.com:4170/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -16158,7 +16158,7 @@
 "seen": "2026-11-12"
 },
 "http://klassikr.streamabc.net/klr-smooth-mp3-128-7968529": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 301",
 "seen": "2026-11-12"
@@ -16435,13 +16435,13 @@
 "seen": "2026-11-12"
 },
 "http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "bad status",
 "seen": "2026-11-12"
 },
 "http://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -16497,7 +16497,7 @@
 "seen": "2026-11-12"
 },
 "http://live.isol.biz:8500/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -16528,7 +16528,7 @@
 "seen": "2026-11-12"
 },
 "http://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -16609,7 +16609,7 @@
 "seen": "2026-11-12"
 },
 "http://live.tamilvision.tv:8081/TVI/HD/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "завис >20с",
 "seen": "2026-11-12"
@@ -16695,7 +16695,7 @@
 "seen": "2026-11-12"
 },
 "http://livestream.5centscdn.com/shaditv/23abe62a446fc05ce0a6c810f4045308.sdp/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -16756,7 +16756,7 @@
 "seen": "2026-11-12"
 },
 "http://lweb04.lcaat.ca:8000/91x.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -16787,7 +16787,7 @@
 "seen": "2026-11-12"
 },
 "http://manager5.streamradio.fr:1810/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -16863,7 +16863,7 @@
 "seen": "2026-11-12"
 },
 "http://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -16934,13 +16934,13 @@
 "seen": "2026-11-12"
 },
 "http://media.finest.tv/hls/live.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://media.islamexplained.com:1935/live/_definst_mp4:ahme.stream_360p/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -16986,7 +16986,7 @@
 "seen": "2026-11-12"
 },
 "http://media1.adventist.no:1935/live/hope3/chunklist_w1848872903.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -17067,7 +17067,7 @@
 "seen": "2026-11-12"
 },
 "http://mixie.fr:8000/Couleursfm": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -17103,7 +17103,7 @@
 "seen": "2026-11-12"
 },
 "http://mp3stream4.abradio.cz/domino128.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -17114,13 +17114,13 @@
 "seen": "2026-11-12"
 },
 "http://ms7.mx-cd.net/dtv-02/107-475823/RTV_Dordrecht.smil/chunklist_w1043703258_b1894400_slNLD.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "таймаут",
 "seen": "2026-11-12"
 },
 "http://ms7.mx-cd.net/tv/113-474263/EdeTV.smil/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -17136,7 +17136,7 @@
 "seen": "2026-11-12"
 },
 "http://mscp2.live-streams.nl:8100/flac.flac": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -17158,7 +17158,7 @@
 "seen": "2026-11-12"
 },
 "http://n0b.radiojar.com/t70n46q7608uv?rj-ttl=5&rj-tok=AAABnJVmcFwAV7iOL00-MHBmOQ": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -17264,7 +17264,7 @@
 "seen": "2026-11-12"
 },
 "http://oflash.dfw.swagit.com/live/ryeny/smil:std-4x3-1-a/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -17295,7 +17295,7 @@
 "seen": "2026-11-12"
 },
 "http://online.fefm.ru:8000/fefm": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -17347,37 +17347,37 @@
 "seen": "2026-11-12"
 },
 "http://ott-cdn.ucom.am/s10/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://ott-cdn.ucom.am/s13/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://ott-cdn.ucom.am/s6/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://ott-cdn.ucom.am/s7/04.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://ott-cdn.ucom.am/s9/04.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://ott.columbus.te.ua/ternopil1/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -17418,7 +17418,7 @@
 "seen": "2026-11-12"
 },
 "http://panel.fm-streams.de:8008/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -17434,7 +17434,7 @@
 "seen": "2026-11-12"
 },
 "http://peridot.streamguys.com:5140/live3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -17445,7 +17445,7 @@
 "seen": "2026-11-12"
 },
 "http://peridot.streamguys.com:7740/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -17506,7 +17506,7 @@
 "seen": "2026-11-12"
 },
 "http://procyon.shoutca.st:8193/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -17557,7 +17557,7 @@
 "seen": "2026-11-12"
 },
 "http://radio-best.net:8000/best": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -17573,19 +17573,17 @@
 "seen": "2026-11-12"
 },
 "http://radio.audiomastering.lt:8000/hq": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://radio.audiomastering.lt:8000/pure": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://radio.auralradiokerala.com:1320/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -17641,7 +17639,7 @@
 "seen": "2026-11-12"
 },
 "http://radio.ifastekpanel.com:1250/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -17652,7 +17650,7 @@
 "seen": "2026-11-12"
 },
 "http://radio.libertopolis.com:8000/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -17716,7 +17714,7 @@
 "seen": "2026-11-12"
 },
 "http://radio.radiodardania.com:4000/stream/1/": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -17757,7 +17755,7 @@
 "seen": "2026-11-12"
 },
 "http://radio.streamings.gr:8004/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -17773,7 +17771,7 @@
 "seen": "2026-11-12"
 },
 "http://radio.ukr.radio:8000/ur1-cn-mp3-m": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -17799,13 +17797,13 @@
 "seen": "2026-11-12"
 },
 "http://radio11.plathong.net:7590/;stream.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "http://radio2.pro-fhi.net:9033/stream.mp3": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -17856,7 +17854,7 @@
 "seen": "2026-11-12"
 },
 "http://radiominor.ru:8000/radiominor_ru_rurock.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -17872,7 +17870,7 @@
 "seen": "2026-11-12"
 },
 "http://radios.istbolivia.com:8042/;": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -17919,7 +17917,7 @@
 "seen": "2026-11-12"
 },
 "http://rascast.podzone.org:8014/reggaew5radio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -17935,13 +17933,13 @@
 "seen": "2026-11-12"
 },
 "http://rbtvdiglinear-i.akamaihd.net/hls/live/241719/ATfallback/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "http://real.monmouth.edu:8080/stream1": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 101] Network is unreachable",
 "seen": "2026-11-12"
@@ -17962,13 +17960,13 @@
 "seen": "2026-11-12"
 },
 "http://relay.publicdomainproject.org:80/classical.mp3": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://relay.publicdomainradio.org/classical.mp3": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -17984,7 +17982,7 @@
 "seen": "2026-11-12"
 },
 "http://rgradio.net:1490/lavozdelcibao": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -18156,7 +18154,7 @@
 "seen": "2026-11-12"
 },
 "http://s0.radioheart.ru:8000/RH82341": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -18167,19 +18165,19 @@
 "seen": "2026-11-12"
 },
 "http://s01.vpis.io/besiktas/besiktas.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "http://s01.vpis.io/sariyer/sariyer.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "http://s01.vpis.io/sinopyildiz/sinopyildiz.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -18255,25 +18253,25 @@
 "seen": "2026-11-12"
 },
 "http://s1.media-planet.sk:80/live/novezamky/lihattv.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://s1.merlive.am/Kinoujas/index.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://s1.merlive.am/TerraHD/index.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://s1.merlive.am/starsinema/index.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -18285,7 +18283,7 @@
 "seen": "2026-11-12"
 },
 "http://s1.voscast.com:11530/;stream1674029495670/1": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -18367,7 +18365,7 @@
 "seen": "2026-11-12"
 },
 "http://s2.voscast.com:8074/;stream/1/": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -18393,7 +18391,7 @@
 "seen": "2026-11-12"
 },
 "http://s3.voscast.com:10458/stream": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -18414,7 +18412,7 @@
 "seen": "2026-11-12"
 },
 "http://s5.alfaomega.tv:1935/alfaomega/alfaomega1.sdp/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -18510,7 +18508,7 @@
 "seen": "2026-11-12"
 },
 "http://s9.viastreaming.net:7820/;011411476069954stream.nsv": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -18571,19 +18569,19 @@
 "seen": "2026-11-12"
 },
 "http://seattlewaveradio.net:8000/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "http://seattlewaveradio.net:8002/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "http://seattlewaveradio.net:8008/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -18714,7 +18712,7 @@
 "seen": "2026-11-12"
 },
 "http://shaddai.onlivestreaming.net:9130/live": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -18816,7 +18814,7 @@
 "seen": "2026-11-12"
 },
 "http://sonic.dattassd.com:8160/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -18842,8 +18840,9 @@
 "seen": "2026-11-12"
 },
 "http://spitzer.mixcult.net:8002/MixCult_Ambient_320kbps": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://splatterbox.us/kixxfm": {
@@ -18907,7 +18906,7 @@
 "seen": "2026-11-12"
 },
 "http://start.agmediachandigarh.com/gaundapunjab/tv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -18943,13 +18942,13 @@
 "seen": "2026-11-12"
 },
 "http://stm1.mycast.com.br:7554/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "http://stm14.srvvox.com.br:7440/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -19040,7 +19039,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.affordablestreaming.com:8000/KUGO-3.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -19151,25 +19150,25 @@
 "seen": "2026-11-12"
 },
 "http://stream.kaztrk.kz/regional/karagandytv/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "http://stream.kaztrk.kz/regional/kokshetautv/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "http://stream.kaztrk.kz/regional/kostanaytv/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "http://stream.kaztrk.kz/regional/kyzylordatv/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -19181,31 +19180,31 @@
 "seen": "2026-11-12"
 },
 "http://stream.kaztrk.kz/regional/oskementv/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "http://stream.kaztrk.kz/regional/pavlodartv/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "http://stream.kaztrk.kz/regional/petropavltv/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "http://stream.kaztrk.kz/regional/semeytv/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "http://stream.kaztrk.kz/regional/shymkenttv/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -19306,9 +19305,8 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/108/index.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/111/tracks-v1a1/mono.ts.m3u8": {
@@ -19343,8 +19341,9 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/121/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/126/index.m3u8": {
@@ -19374,9 +19373,8 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/138/index.m3u8": {
-"fails": 2,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/139/tracks-v1a1/mono.ts.m3u8": {
@@ -19391,9 +19389,8 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/141/index.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/141/tracks-v1a1/mono.ts.m3u8": {
@@ -19487,8 +19484,9 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/170/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/172/tracks-v1a1/mono.ts.m3u8": {
@@ -19508,8 +19506,9 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/175/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/177/index.m3u8": {
@@ -19555,13 +19554,15 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/194/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/198/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/198/tracks-v1a1/mono.ts.m3u8": {
@@ -19570,8 +19571,9 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/204/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/205/index.m3u8": {
@@ -19585,8 +19587,9 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/207/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/208/index.m3u8": {
@@ -19595,18 +19598,21 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/211/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/213/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/214/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/217/index.m3u8": {
@@ -19691,8 +19697,9 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/244/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/244/tracks-v1a1/mono.ts.m3u8": {
@@ -19761,7 +19768,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/27/index.m3u8": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "не HLS",
 "seen": "2026-11-12"
@@ -19787,9 +19794,8 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/275/index.m3u8": {
-"fails": 2,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/278/index.m3u8": {
@@ -19948,9 +19954,8 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/362/index.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/363/index.m3u8": {
@@ -19996,8 +20001,9 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/39/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/395/index.m3u8": {
@@ -20018,8 +20024,9 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/397/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/398/tracks-v1a1/mono.ts.m3u8": {
@@ -20043,9 +20050,8 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/403/index.m3u8": {
-"fails": 2,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/403/tracks-v1a1/mono.ts.m3u8": {
@@ -20054,8 +20060,9 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/406/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/406/tracks-v1a1/mono.ts.m3u8": {
@@ -20076,7 +20083,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/419/index.m3u8": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "не HLS",
 "seen": "2026-11-12"
@@ -20087,7 +20094,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/421/index.m3u8": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "не HLS",
 "seen": "2026-11-12"
@@ -20210,9 +20217,8 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/451/index.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/451/tracks-v1a1/mono.ts.m3u8": {
@@ -20221,8 +20227,9 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/455/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/456/index.m3u8": {
@@ -20279,7 +20286,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/465/index.m3u8": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "не HLS",
 "seen": "2026-11-12"
@@ -20429,7 +20436,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/81/index.m3u8": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "не HLS",
 "seen": "2026-11-12"
@@ -20457,8 +20464,9 @@
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/92/index.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "http://stream.mcquack.net/92/tracks-v1a1/mono.ts.m3u8": {
@@ -20509,7 +20517,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.novotempo.com:1935/tv/tvnovotempo.smil/live.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -20695,7 +20703,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.radiovan.fm/stream/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -20771,25 +20779,25 @@
 "seen": "2026-11-12"
 },
 "http://stream.taksimbilisim.com:1935/ciftcitv/smil:ciftcitv.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://stream.taksimbilisim.com:1935/tuncerciftci/smil:tuncerciftci.smil/iptvdelisi.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://stream.taksimbilisim.com:1935/tv41/bant1/TV41.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://stream.taksimbilisim.com:1935/tv52/smil:tv52.smil/iptvdelisi.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -21045,7 +21053,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.zeno.fm/1bh60byekf9uv": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -21066,7 +21074,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.zeno.fm/1lygjr1ffciuv": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -21117,7 +21125,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.zeno.fm/25uyrxhglrnvv": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -21288,7 +21296,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.zeno.fm/7lc6q2vf12ntv": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -21334,7 +21342,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.zeno.fm/8271qhktxc9uv": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -21585,7 +21593,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.zeno.fm/drhr3wag64zuv": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -22011,7 +22019,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.zeno.fm/n178or3a7jgvv": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -22032,7 +22040,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.zeno.fm/n7g9aegkbd0uv": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -22078,7 +22086,7 @@
 "seen": "2026-11-12"
 },
 "http://stream.zeno.fm/nukuejvnyo3tv": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -22769,13 +22777,13 @@
 "seen": "2026-11-12"
 },
 "http://stream2.dynalias.com:1935/live/tvlive1/chunklist_w1211325251.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -22811,7 +22819,7 @@
 "seen": "2026-11-12"
 },
 "http://stream2.taksimbilisim.com:1935/alanyatv/smil:alanyatv.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -22967,7 +22975,7 @@
 "seen": "2026-11-12"
 },
 "http://streaming.elpinguino.com:1935/live/pinguinotv_720p/livestream.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -23008,7 +23016,7 @@
 "seen": "2026-11-12"
 },
 "http://streaming.mundoclasicaupa.com:8000/radioclasica": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -23059,13 +23067,13 @@
 "seen": "2026-11-12"
 },
 "http://streaming.sound9studio.com/musicstation": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://streaming.toutech.net:1935/live/mp4:jawharafm.sdp/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "не HLS",
 "seen": "2026-11-12"
@@ -23477,7 +23485,7 @@
 "seen": "2026-11-12"
 },
 "http://thassos.cdnstream.com:5095/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -23488,7 +23496,7 @@
 "seen": "2026-11-12"
 },
 "http://thtg.vn:8001/thtg.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -23519,7 +23527,7 @@
 "seen": "2026-11-12"
 },
 "http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/chunks.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -23535,7 +23543,7 @@
 "seen": "2026-11-12"
 },
 "http://tstv-stream.tsm.utexas.edu/hls/livestream_hi/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -23566,13 +23574,13 @@
 "seen": "2026-11-12"
 },
 "http://tv.geniusnet.sk:8081/localltv/pl.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://tv.kgtv.vn/live/kgtv/kgtv.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -24575,7 +24583,7 @@
 "seen": "2026-11-12"
 },
 "http://uk3.internet-radio.com:8024/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -24591,7 +24599,7 @@
 "seen": "2026-11-12"
 },
 "http://uni01rtmp.tulix.tv/playout2multi9/lavozdemaria.stream/chunklist_w477912263.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -24617,7 +24625,7 @@
 "seen": "2026-11-12"
 },
 "http://us2.internet-radio.com:8016/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -24643,7 +24651,7 @@
 "seen": "2026-11-12"
 },
 "http://us2.maindigitalstream.com:8138/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -24679,7 +24687,7 @@
 "seen": "2026-11-12"
 },
 "http://usa10.fastcast4u.com:5790/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -24732,13 +24740,13 @@
 "seen": "2026-11-12"
 },
 "http://vibration.stream2net.eu:8220/vibrationzenrelax-128.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "http://vibration.stream2net.eu:8480/;stream/1": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -24764,13 +24772,13 @@
 "seen": "2026-11-12"
 },
 "http://video.radio-banovina.hr:1935/live/myStream/chunklist_w1164976177.m3u8": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://video.rionitv.com:9090/hls/live/rioni.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -24851,7 +24859,7 @@
 "seen": "2026-11-12"
 },
 "http://vriezenet.nl:11051/dcflac": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -24937,7 +24945,7 @@
 "seen": "2026-11-12"
 },
 "http://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/iptvdelisi.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -24958,7 +24966,7 @@
 "seen": "2026-11-12"
 },
 "http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -24969,13 +24977,13 @@
 "seen": "2026-11-12"
 },
 "http://wms.shared.streamshow.it/telequattro/telequattro/chunklist_w352656972.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "http://wms.shared.streamshow.it/telequattro/telequattro/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -24991,7 +24999,7 @@
 "seen": "2026-11-12"
 },
 "http://wms.shared.streamshow.it:1935/telepavia/telepavia/live.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -25012,7 +25020,7 @@
 "seen": "2026-11-12"
 },
 "http://wowza.media-line.co.il/Musayof-Live/livestream.sdp/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -25063,7 +25071,7 @@
 "seen": "2026-11-12"
 },
 "http://www.sonus.fm:1935/public/stream_720p/chunklist_w514335426.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "bad status",
 "seen": "2026-11-12"
@@ -25109,13 +25117,13 @@
 "seen": "2026-11-12"
 },
 "http://wz4.dnip.com.br/bemtv/bemtv.sdp/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "bad status",
 "seen": "2026-11-12"
 },
 "http://wz4.dnip.com.br/maisfmhd/maisfmhd.stream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "bad status",
 "seen": "2026-11-12"
@@ -25136,13 +25144,13 @@
 "seen": "2026-11-12"
 },
 "http://wzstreaming.rai.it/TVlive/liveStream/chunklist_w823540263.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "таймаут",
 "seen": "2026-11-12"
 },
 "http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "таймаут",
 "seen": "2026-11-12"
@@ -25553,13 +25561,13 @@
 "seen": "2026-11-12"
 },
 "https://1004910551.rsc.cdn77.org/LS-PRG-44514-1/tracks-v1a1/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://10gb1.tulix.tv/WLVR": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -25581,13 +25589,13 @@
 "seen": "2026-11-12"
 },
 "https://1rus.ru/content//_1080p.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://1tvkz-stream.daitsuna.net/1tvkz/1tvkz/1tvkz/1tvkz_720/chunks.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -25630,13 +25638,13 @@
 "seen": "2026-11-12"
 },
 "https://3awlive.akamaized.net/hls/live/2032295-b/3AW/3AW720B/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://40rockstream.live-streams.nl/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -25682,7 +25690,7 @@
 "seen": "2026-11-12"
 },
 "https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -25708,7 +25716,7 @@
 "seen": "2026-11-12"
 },
 "https://585b674743bbb.streamlock.net/9044/9044/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -25720,7 +25728,7 @@
 "seen": "2026-11-12"
 },
 "https://5864df9ceac85.streamlock.net/germanpictures-live/_definst_/mp4:streamschedule/playlist.m3u8?&ref=www.of-tv.de&seid=166119": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -25781,7 +25789,7 @@
 "seen": "2026-11-12"
 },
 "https://5926fc9c7c5b2.streamlock.net/rtfeunawfu/rtfeunawfu/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -25802,7 +25810,7 @@
 "seen": "2026-11-12"
 },
 "https://593aed234297b.streamlock.net/meervandaag/meervandaag/chunklist_w192607761.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -25828,7 +25836,7 @@
 "seen": "2026-11-12"
 },
 "https://59d39900ebfb8.streamlock.net/bahartv/bahartv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -25849,7 +25857,7 @@
 "seen": "2026-11-12"
 },
 "https://59d7d6f47d7fc.streamlock.net/azzurratv/azzurratv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -25880,7 +25888,7 @@
 "seen": "2026-11-12"
 },
 "https://59d7d6f47d7fc.streamlock.net/reteveneta/reteveneta/chunklist_w1193659434.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -25901,7 +25909,7 @@
 "seen": "2026-11-12"
 },
 "https://59e88b197fb16.streamlock.net:4443/live/canal4/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -25967,7 +25975,7 @@
 "seen": "2026-11-12"
 },
 "https://5ab29cc78f681.streamlock.net/NasulTV/livestream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -26038,7 +26046,7 @@
 "seen": "2026-11-12"
 },
 "https://5bf7b725107e5.streamlock.net/imtv/imtv/playlist.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -26064,7 +26072,7 @@
 "seen": "2026-11-12"
 },
 "https://5ca39be538307.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -26105,7 +26113,7 @@
 "seen": "2026-11-12"
 },
 "https://5d12bc59c4748.streamlock.net/redirect/ctvchannel.tv/ctv.smil?type=m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -26166,7 +26174,7 @@
 "seen": "2026-11-12"
 },
 "https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -26182,7 +26190,7 @@
 "seen": "2026-11-12"
 },
 "https://5db313b643fd8.streamlock.net:443/CalabriaTv2/CalabriaTv2/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -26198,7 +26206,7 @@
 "seen": "2026-11-12"
 },
 "https://5dc7d824154d0.streamlock.net/live/Nabaa/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -26209,15 +26217,14 @@
 "seen": "2026-11-12"
 },
 "https://5dcabf026b188.streamlock.net/lanuovatvbas/livestream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://5ddd47d64e730.streamlock.net:444/mousepad1/mousepad1.stream/chunklist_w733151700.m3u8": {
@@ -26251,37 +26258,37 @@
 "seen": "2026-11-12"
 },
 "https://5e50264bd6766.streamlock.net/rtg/videortg/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://5e73cf528f404.streamlock.net/RTR99TV/livestream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://5e73cf528f404.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://5e73cf528f404.streamlock.net/TeleEstense/livestream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://5e85d90130e77.streamlock.net/6022/6022/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -26355,13 +26362,13 @@
 "seen": "2026-11-12"
 },
 "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://5f22d76e220e1.streamlock.net/reitv/reitv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -26408,13 +26415,13 @@
 "seen": "2026-11-12"
 },
 "https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://5f700d5b2c46f.streamlock.net/madryntv/madryntv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -26425,7 +26432,7 @@
 "seen": "2026-11-12"
 },
 "https://5fa5de1a545ae.streamlock.net/sisjalisciense/sisjalisciense/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -26441,19 +26448,19 @@
 "seen": "2026-11-12"
 },
 "https://600f07e114306.streamlock.net/TT24_TELETUTTO/livestream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://600f07e114306.streamlock.net/TT2_TELETUTTO/livestream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://600f07e114306.streamlock.net/TT_TELETUTTO/smil:TT.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -26474,19 +26481,19 @@
 "seen": "2026-11-12"
 },
 "https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://60ba7ef02e687.streamlock.net/ICNET2/ngrp:i2.stream_all/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://60ed5b6d0df78.streamlock.net:1936/enlinea/enlinea/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -26517,13 +26524,13 @@
 "seen": "2026-11-12"
 },
 "https://6n3yogbnd9ok-hls-live.5centscdn.com/threetamil/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -26544,7 +26551,7 @@
 "seen": "2026-11-12"
 },
 "https://74937-castr.akamaized.net/5ea49827ff3b5d7b22708777/live_cd93fa8063f411ecb28b5d4f40b51a46/tracks-v1a1/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -26790,7 +26797,7 @@
 "seen": "2026-11-12"
 },
 "https://a1.vizitec.com:8001/powerfm.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -26801,7 +26808,7 @@
 "seen": "2026-11-12"
 },
 "https://a10.asurahosting.com:7480/radio.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -26812,7 +26819,7 @@
 "seen": "2026-11-12"
 },
 "https://a10.asurahosting.com:7620/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -27003,13 +27010,13 @@
 "seen": "2026-11-12"
 },
 "https://a2.radioheart.ru:9025/RH55879": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://a3.asurahosting.com:7540/radio.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: _ssl.c:994: The handshake operation timed out",
 "seen": "2026-11-12"
@@ -27040,13 +27047,13 @@
 "seen": "2026-11-12"
 },
 "https://a4.asurahosting.com:7530/radio.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://a4.radioheart.ru:9007/8080?n=615571": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -27087,7 +27094,7 @@
 "seen": "2026-11-12"
 },
 "https://a5.radioheart.ru:9009/RH55464": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -27138,13 +27145,13 @@
 "seen": "2026-11-12"
 },
 "https://a8.asurahosting.com:8090/radio.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://a8.radioheart.ru:8018/RH64089": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -27377,13 +27384,13 @@
 "seen": "2026-11-12"
 },
 "https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 500",
 "seen": "2026-11-12"
 },
 "https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -27459,7 +27466,7 @@
 "seen": "2026-11-12"
 },
 "https://amixtv.live:3753/live/sitvlive.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -27480,7 +27487,7 @@
 "seen": "2026-11-12"
 },
 "https://angr.radyotvonline.net/webtv/smil:kecioren.smil/chunklist_w976368300_b3268000_sltur.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -27521,13 +27528,13 @@
 "seen": "2026-11-12"
 },
 "https://ap02.iqplay.tv:8082/iqb8002/s03btv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://ap02.iqplay.tv:8082/iqb8002/s4ne/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -27593,7 +27600,7 @@
 "seen": "2026-11-12"
 },
 "https://arabnights-prod.live-streams.nl:18020/": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -27619,8 +27626,9 @@
 "seen": "2026-11-12"
 },
 "https://asculta.muzicaok.de:8008/stream": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://asculta.radiorfi.ro/live.aac": {
@@ -27639,19 +27647,19 @@
 "seen": "2026-11-12"
 },
 "https://asomatv.duckdns.org/livestream/stream.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://atimeonline3.smartclick.co.th/efm": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://atimeonline3.smartclick.co.th/green": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -27667,7 +27675,7 @@
 "seen": "2026-11-12"
 },
 "https://audio.clouds.com.bo/listen/benavides/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -27688,7 +27696,7 @@
 "seen": "2026-11-12"
 },
 "https://audio01.viaflux.com:10290/live.aac": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -27790,7 +27798,7 @@
 "seen": "2026-11-12"
 },
 "https://backbonenetworks.streamguys1.com/WBNW": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -27841,37 +27849,37 @@
 "seen": "2026-11-12"
 },
 "https://bbceu-bbcdrama-1-fr.rakuten.wurl.tv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://bcovlive-a.akamaihd.net/575d86160eb143458d51f7ab187a4e68/us-east-1/6101674910001/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://bcsecurelivehls-i.akamaihd.net//hls/live/720612/1614493167001_1/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://bcsecurelivehls-i.akamaihd.net/hls/live/1021447/6203311941001/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://bcsecurelivehls-i.akamaihd.net/hls/live/598046/4744899807001_1/livestream/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -27888,7 +27896,7 @@
 "seen": "2026-11-12"
 },
 "https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
@@ -27904,7 +27912,7 @@
 "seen": "2026-11-12"
 },
 "https://biptv.tv/live/biptvstream_orig/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -30344,7 +30352,7 @@
 "seen": "2026-11-12"
 },
 "https://bozztv.com/36bay2/mtavariarxi/tracks-v1a1/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -30465,7 +30473,7 @@
 "seen": "2026-11-12"
 },
 "https://broadcast.miami/proxy/tsop?mp=%2Fstream%2F%3B": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -30757,7 +30765,7 @@
 "seen": "2026-11-12"
 },
 "https://c26.radioboss.fm:18320/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -30878,7 +30886,7 @@
 "seen": "2026-11-12"
 },
 "https://calvaryfm-dexterity.radioca.st/stream": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -31119,13 +31127,13 @@
 "seen": "2026-11-12"
 },
 "https://canadaremar2.todostreaming.es/live/argentina-web.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://canal10.mediaflix.istream.mx/wza_live/live/movil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -31156,13 +31164,13 @@
 "seen": "2026-11-12"
 },
 "https://cast.accessweb.be:3005/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL] record layer failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://cast.accessweb.be:4185/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -31258,7 +31266,7 @@
 "seen": "2026-11-12"
 },
 "https://cast1.asurahosting.com/proxy/beachpa3/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -31304,7 +31312,7 @@
 "seen": "2026-11-12"
 },
 "https://cast1.asurahosting.com/proxy/sofronio/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -31425,19 +31433,19 @@
 "seen": "2026-11-12"
 },
 "https://cast2.my-control-panel.com/proxy/radios21/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://cast2.my-control-panel.com/proxy/radioso3/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://cast2.my-control-panel.com/proxy/radioso7/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -31473,13 +31481,13 @@
 "seen": "2026-11-12"
 },
 "https://cast3.asurahosting.com/proxy/radios28/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://cast3.asurahosting.com/proxy/radios32/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -31605,7 +31613,7 @@
 "seen": "2026-11-12"
 },
 "https://cast4.servcast.net/proxy/yonkodoradio11231/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -31671,9 +31679,8 @@
 "seen": "2026-11-12"
 },
 "https://cast5.my-control-panel.com/proxy/lorne/stream.aac": {
-"fails": 3,
-"last_ok": "2026-11-11",
-"reason": "HTTP 404",
+"fails": 0,
+"last_ok": "2026-11-12",
 "seen": "2026-11-12"
 },
 "https://cast5.my-control-panel.com/proxy/maxzmum/stream": {
@@ -31682,7 +31689,7 @@
 "seen": "2026-11-12"
 },
 "https://cast5.my-control-panel.com/proxy/morris/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "bad status",
 "seen": "2026-11-12"
@@ -31713,7 +31720,7 @@
 "seen": "2026-11-12"
 },
 "https://cast6.asurahosting.com/proxy/dolphin4/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -31759,7 +31766,7 @@
 "seen": "2026-11-12"
 },
 "https://cast6.asurahosting.com/proxy/voslondo/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -31800,7 +31807,7 @@
 "seen": "2026-11-12"
 },
 "https://caster05.streampakket.com/proxy/8992/stream;audio.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -31831,7 +31838,7 @@
 "seen": "2026-11-12"
 },
 "https://casthttps1.suaradionanet.net/10304/stream": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -31893,7 +31900,7 @@
 "seen": "2026-11-12"
 },
 "https://cc.vmakerhost.com/proxy/gwadar?mp=%2Fstream%3A": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -31979,19 +31986,19 @@
 "seen": "2026-11-12"
 },
 "https://cdn-berattv.yayin.com.tr/berattv/berattv/chunklist_w401133734.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/amlst:cekmekoybeltv/chunklist_w1305163043_b1694720.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "не HLS",
 "seen": "2026-11-12"
@@ -32003,9 +32010,8 @@
 "seen": "2026-11-12"
 },
 "https://cdn-dvr.ntv.ru/Balabol/index.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "https://cdn-dvr.ntv.ru/Balabol/tracks-v1a1/rewind-240.ts.m3u8": {
@@ -32015,9 +32021,8 @@
 "seen": "2026-11-12"
 },
 "https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "https://cdn-dvr.ntv.ru/Nevskiy/tracks-v1a1/rewind-240.ts.m3u8": {
@@ -32027,9 +32032,8 @@
 "seen": "2026-11-12"
 },
 "https://cdn-dvr.ntv.ru/Perviy_otdel/index.m3u8": {
-"fails": 3,
-"last_ok": "2026-11-11",
-"reason": "не HLS",
+"fails": 0,
+"last_ok": "2026-11-12",
 "seen": "2026-11-12"
 },
 "https://cdn-dvr.ntv.ru/Perviy_otdel/tracks-v1a1/rewind-240.ts.m3u8": {
@@ -32039,9 +32043,8 @@
 "seen": "2026-11-12"
 },
 "https://cdn-dvr.ntv.ru/Pes/index.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "https://cdn-dvr.ntv.ru/Pes/tracks-v1a1/rewind-240.ts.m3u8": {
@@ -32126,7 +32129,7 @@
 "seen": "2026-11-12"
 },
 "https://cdn.elsalvadordigital.com:1936/wowtv/smil:wowtv.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -32137,7 +32140,7 @@
 "seen": "2026-11-12"
 },
 "https://cdn.icu.de/rtplive/btv.stream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 101] Network is unreachable",
 "seen": "2026-11-12"
@@ -32148,7 +32151,7 @@
 "seen": "2026-11-12"
 },
 "https://cdn.jwplayer.com/videos/1m0nMXhZ-3SDdwqdV.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -32222,9 +32225,8 @@
 "seen": "2026-11-12"
 },
 "https://cdn.ntv.ru/th_hit/tracks-v1a1/playlist.m3u8": {
-"fails": 3,
-"last_ok": "2026-11-11",
-"reason": "не HLS",
+"fails": 0,
+"last_ok": "2026-11-12",
 "seen": "2026-11-12"
 },
 "https://cdn.ntv.ru/th_pravo/playlist.m3u8": {
@@ -32250,7 +32252,7 @@
 "seen": "2026-11-12"
 },
 "https://cdn.ntv.ru/th_style/tracks-v1a1/playlist.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "не HLS",
 "seen": "2026-11-12"
@@ -32340,7 +32342,7 @@
 "seen": "2026-11-12"
 },
 "https://cdn1-ercistv.yayin.com.tr/ercistv/amlst:ercistv/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -32407,7 +32409,7 @@
 "seen": "2026-11-12"
 },
 "https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/oakland/G0219_002/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -32449,49 +32451,49 @@
 "seen": "2026-11-12"
 },
 "https://cdn4.streamgato.us:3595/live/litoralhdlive.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_snrt/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arriadia/hls_snrt/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/assadissa/hls_snrt/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/tamazight_tv8_snrt/hls_snrt/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
@@ -32522,13 +32524,13 @@
 "seen": "2026-11-12"
 },
 "https://centova.listenon.in/proxy/animetracks/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://centova.listenon.in/proxy/gamepad/stream?nowx=1726145064646": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -32564,7 +32566,7 @@
 "seen": "2026-11-12"
 },
 "https://centova3.transmissaodigital.com:20002/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -32620,19 +32622,19 @@
 "seen": "2026-11-12"
 },
 "https://centova92.instainternet.com/proxy/phlovefm?mp=/stream.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
 },
 "https://cervera.eldialdigital.com:21131/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://cervera.eldialdigital.com:23121/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -32693,7 +32695,7 @@
 "seen": "2026-11-12"
 },
 "https://cheetah.streemlion.com:3040/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -32819,19 +32821,19 @@
 "seen": "2026-11-12"
 },
 "https://cloud-faro.beheerstream.com/proxy/caribafm2?mp=%2Fstream%3Blisten.pls": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://cloud-faro.beheerstream.com/proxy/iqienyzy?mp=%2Fstream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://cloud-faro.beheerstream.com/proxy/zyrmuuzd?mp=%2Fstream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -32912,7 +32914,7 @@
 "seen": "2026-11-12"
 },
 "https://complex.in.ua/oldper": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -32923,7 +32925,7 @@
 "seen": "2026-11-12"
 },
 "https://contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
@@ -32934,7 +32936,7 @@
 "seen": "2026-11-12"
 },
 "https://content.uplynk.com/2c88dfe19e1447e6a6aa27e8e143a140.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -33015,7 +33017,7 @@
 "seen": "2026-11-12"
 },
 "https://cp11.serverse.com/proxy/radiogold/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -33031,7 +33033,7 @@
 "seen": "2026-11-12"
 },
 "https://cp11.serverse.com/proxy/wowradio/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -33112,7 +33114,7 @@
 "seen": "2026-11-12"
 },
 "https://cstmn.gr/radio/8050/stream.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 101] Network is unreachable",
 "seen": "2026-11-12"
@@ -33133,7 +33135,7 @@
 "seen": "2026-11-12"
 },
 "https://customer-vkv8jtxsth4yne24.cloudflarestream.com/5e8f0571c34cecd39453f02ad6e8d619/manifest/video.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "пустой ответ",
 "seen": "2026-11-12"
@@ -33144,7 +33146,7 @@
 "seen": "2026-11-12"
 },
 "https://d10rltuy0iweup.cloudfront.net/ATNNAT/myStream/chunklist_w2121902183.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -33160,7 +33162,7 @@
 "seen": "2026-11-12"
 },
 "https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -33222,7 +33224,7 @@
 "seen": "2026-11-12"
 },
 "https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -33238,13 +33240,13 @@
 "seen": "2026-11-12"
 },
 "https://d2g7v53450s2i2.cloudfront.net/ATNUS/streamdelay/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/chunklist_b2192000_slita.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -33255,7 +33257,7 @@
 "seen": "2026-11-12"
 },
 "https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -33271,43 +33273,43 @@
 "seen": "2026-11-12"
 },
 "https://d33zah5htxvoxb.cloudfront.net/el/live/cr1/hls_1280x720.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://d33zah5htxvoxb.cloudfront.net/el/live/cr2/hls_1280x720.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://d33zah5htxvoxb.cloudfront.net/el/live/cr3/hls_1280x720.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://d33zah5htxvoxb.cloudfront.net/el/live/cr4/hls_1280x720.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://d33zah5htxvoxb.cloudfront.net/el/live/dail/hls_1280x720.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://d33zah5htxvoxb.cloudfront.net/el/live/oirtv/hls_1280x720.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://d33zah5htxvoxb.cloudfront.net/el/live/seanad/hls_1280x720.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -33323,7 +33325,7 @@
 "seen": "2026-11-12"
 },
 "https://d3d4yli4hf5bmh.cloudfront.net/hls/fLaC_hires.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -33334,13 +33336,13 @@
 "seen": "2026-11-12"
 },
 "https://d3pvma9xb2775h.cloudfront.net/live/omropfryslan/stream04/720p/prog_index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://d3pvma9xb2775h.cloudfront.net/live/omropfryslan/stream04/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -33357,7 +33359,7 @@
 "seen": "2026-11-12"
 },
 "https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1351db/live.isml/.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -33368,7 +33370,7 @@
 "seen": "2026-11-12"
 },
 "https://d9quh89lh7dtw.cloudfront.net/public-output/index_768x432_1500k.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -33379,7 +33381,7 @@
 "seen": "2026-11-12"
 },
 "https://dacastmmd.mmdlive.lldns.net/dacastmmd/7e84ed301b194b7b81e86f85bb2c3a33/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -33395,67 +33397,67 @@
 "seen": "2026-11-12"
 },
 "https://dai.google.com/linear/hls/event/PPMxI7GZSRG6Kgkp2gSF1g/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://dai.google.com/linear/hls/event/fD3VBzTxRXGz-v7HV0vryQ/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://dai2.xumo.com/amagi_hls_data_xumo1212A-americasfunniesthomevideos/CDN/1280x720_5000000/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://dai2.xumo.com/amagi_hls_data_xumo1212A-cbcnews/CDN/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://dai2.xumo.com/amagi_hls_data_xumo1212A-failarmy/CDN/1280x720_5000000/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmriseclassictv/CDN/648x432_5000000/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://dai2.xumo.com/amagi_hls_data_xumo1212A-food52/CDN/1280x720_5000000/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://dai2.xumo.com/amagi_hls_data_xumo1212A-petcollective/CDN/1280x720_5000000/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1212A-filmrisecrime/CDN/640x432_2500000/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1212A-theasylum/CDN/1280x720_2500000/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1234A-tmz/CDN/1280x720_5000000/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -33471,13 +33473,13 @@
 "seen": "2026-11-12"
 },
 "https://das-edge16-live365-dal02.cdnstream.com/a57422": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://das-edge17-live365-dal02.cdnstream.com/a34543": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -33553,13 +33555,13 @@
 "seen": "2026-11-12"
 },
 "https://de3.amfmph.com/ssl/rmncebu?mp=%2Fstream": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "HTTP 502",
 "seen": "2026-11-12"
 },
 "https://deb10stream.duckdns.org/hls/stream.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -33630,7 +33632,7 @@
 "seen": "2026-11-12"
 },
 "https://directes-tv-int.ccma.cat/live-origin/tvi-hls/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -33666,7 +33668,7 @@
 "seen": "2026-11-12"
 },
 "https://donmedia.bonus-tv.ru/cdn/donmedia/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -33682,13 +33684,13 @@
 "seen": "2026-11-12"
 },
 "https://dpg-eventstreams.akamaized.net/hlnlivesrt-xmr/streamx/hlnlivesrt_720p.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
@@ -33744,13 +33746,13 @@
 "seen": "2026-11-12"
 },
 "https://dvrfl03.bozztv.com/hdirect/hdirect-telemetrolple2/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://dvrfl03.bozztv.com/hdirect/hdirect-tnhtv2/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -33811,7 +33813,7 @@
 "seen": "2026-11-12"
 },
 "https://ec2.yesstreaming.net:2500/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -33852,7 +33854,7 @@
 "seen": "2026-11-12"
 },
 "https://eco.onestreaming.com/proxy/cosmos965/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -33888,7 +33890,7 @@
 "seen": "2026-11-12"
 },
 "https://edge.vedge.infomaniak.com/livecast/ik:nancy-webtv/manifest.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "таймаут",
 "seen": "2026-11-12"
@@ -34050,13 +34052,13 @@
 "seen": "2026-11-12"
 },
 "https://estructuraweb.com.co:9207/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://estructuraweb.com.co:9234/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -34147,7 +34149,7 @@
 "seen": "2026-11-12"
 },
 "https://eu7.fastcast4u.com/proxy/babylonarabia?mp=/1": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -34173,7 +34175,7 @@
 "seen": "2026-11-12"
 },
 "https://eu8.fastcast4u.com/proxy/coco?mp=%2F1": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -34289,7 +34291,7 @@
 "seen": "2026-11-12"
 },
 "https://everestcast.onlineradiostation.co:2110/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -34472,7 +34474,7 @@
 "seen": "2026-11-12"
 },
 "https://ffs3.gulfsat.com/YEMENIA/tracks-v1a1/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -35018,7 +35020,7 @@
 "seen": "2026-11-12"
 },
 "https://fps2.listen2myradio.com:2199/listen.php?ip=109.169.23.17&port=8333&type=s1": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "пустой ответ",
 "seen": "2026-11-12"
@@ -35089,7 +35091,7 @@
 "seen": "2026-11-12"
 },
 "https://free.rcast.net/67044": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 500",
 "seen": "2026-11-12"
@@ -35130,7 +35132,7 @@
 "seen": "2026-11-12"
 },
 "https://frikanalen.no/stream/stream_1.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -35998,7 +36000,7 @@
 "seen": "2026-11-12"
 },
 "https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -36039,7 +36041,7 @@
 "seen": "2026-11-12"
 },
 "https://goldlive.radionoise.ro:9170/stream": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "ошибка: _ssl.c:994: The handshake operation timed out",
 "seen": "2026-11-12"
@@ -36055,13 +36057,13 @@
 "seen": "2026-11-12"
 },
 "https://graalradio.com:8128/future160": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://greatesthitslive.radionoise.ro:9010/stream": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "ошибка: _ssl.c:994: The handshake operation timed out",
 "seen": "2026-11-12"
@@ -36098,13 +36100,13 @@
 "seen": "2026-11-12"
 },
 "https://gustotv-gustotv-2-eu.rakuten.wurl.tv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://h030.video-stream-hosting.de/quantisana-live/_definst_/smil:livestream.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -36165,19 +36167,18 @@
 "seen": "2026-11-12"
 },
 "https://hitslive.radionoise.ro:9140/stream": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "ошибка: _ssl.c:994: The handshake operation timed out",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-1970/96/playlist.m3u8": {
-"fails": 2,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-1980/96/playlist.m3u8": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -36193,8 +36194,9 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-ambient/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-armin/playlist.m3u8": {
@@ -36208,39 +36210,41 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-bighits/96/playlist.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-brks/96/playlist.m3u8": {
-"fails": 0,
-"last_ok": "2026-11-12",
-"seen": "2026-11-12"
-},
-"https://hls-01-radiorecord.hostingradio.ru/record-cadillac/96/playlist.m3u8": {
-"fails": 0,
-"last_ok": "2026-11-12",
-"seen": "2026-11-12"
-},
-"https://hls-01-radiorecord.hostingradio.ru/record-chil/96/playlist.m3u8": {
-"fails": 0,
-"last_ok": "2026-11-12",
-"seen": "2026-11-12"
-},
-"https://hls-01-radiorecord.hostingradio.ru/record-chillhouse/96/playlist.m3u8": {
-"fails": 2,
+"fails": 1,
 "last_ok": "2026-11-12",
 "reason": "HTTP 503",
 "seen": "2026-11-12"
 },
-"https://hls-01-radiorecord.hostingradio.ru/record-christmas/96/playlist.m3u8": {
+"https://hls-01-radiorecord.hostingradio.ru/record-cadillac/96/playlist.m3u8": {
+"fails": 1,
+"last_ok": "2026-11-12",
+"reason": "HTTP 503",
+"seen": "2026-11-12"
+},
+"https://hls-01-radiorecord.hostingradio.ru/record-chil/96/playlist.m3u8": {
+"fails": 1,
+"last_ok": "2026-11-12",
+"reason": "HTTP 503",
+"seen": "2026-11-12"
+},
+"https://hls-01-radiorecord.hostingradio.ru/record-chillhouse/96/playlist.m3u8": {
 "fails": 0,
 "last_ok": "2026-11-12",
 "seen": "2026-11-12"
 },
-"https://hls-01-radiorecord.hostingradio.ru/record-club/96/playlist.m3u8": {
+"https://hls-01-radiorecord.hostingradio.ru/record-christmas/96/playlist.m3u8": {
 "fails": 1,
+"last_ok": "2026-11-12",
+"reason": "HTTP 503",
+"seen": "2026-11-12"
+},
+"https://hls-01-radiorecord.hostingradio.ru/record-club/96/playlist.m3u8": {
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -36251,18 +36255,21 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-darkside/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-dc/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-deep/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-deti/96/playlist.m3u8": {
@@ -36271,19 +36278,20 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-dream/96/playlist.m3u8": {
-"fails": 0,
-"last_ok": "2026-11-12",
-"seen": "2026-11-12"
-},
-"https://hls-01-radiorecord.hostingradio.ru/record-dreampop/96/playlist.m3u8": {
-"fails": 0,
-"last_ok": "2026-11-12",
-"seen": "2026-11-12"
-},
-"https://hls-01-radiorecord.hostingradio.ru/record-drumhits/96/playlist.m3u8": {
 "fails": 1,
 "last_ok": "2026-11-12",
 "reason": "HTTP 503",
+"seen": "2026-11-12"
+},
+"https://hls-01-radiorecord.hostingradio.ru/record-dreampop/96/playlist.m3u8": {
+"fails": 1,
+"last_ok": "2026-11-12",
+"reason": "HTTP 503",
+"seen": "2026-11-12"
+},
+"https://hls-01-radiorecord.hostingradio.ru/record-drumhits/96/playlist.m3u8": {
+"fails": 0,
+"last_ok": "2026-11-12",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-dub/96/playlist.m3u8": {
@@ -36297,13 +36305,15 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-elect/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-eurodance/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-fbass/96/playlist.m3u8": {
@@ -36327,9 +36337,8 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-gold/96/playlist.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-gop/96/playlist.m3u8": {
@@ -36343,7 +36352,7 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-guetta/96/playlist.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -36369,29 +36378,32 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-hypno/96/playlist.m3u8": {
-"fails": 0,
-"last_ok": "2026-11-12",
-"seen": "2026-11-12"
-},
-"https://hls-01-radiorecord.hostingradio.ru/record-ibiza/96/playlist.m3u8": {
-"fails": 2,
+"fails": 1,
 "last_ok": "2026-11-12",
 "reason": "HTTP 503",
 "seen": "2026-11-12"
 },
-"https://hls-01-radiorecord.hostingradio.ru/record-jackin/96/playlist.m3u8": {
+"https://hls-01-radiorecord.hostingradio.ru/record-ibiza/96/playlist.m3u8": {
 "fails": 0,
 "last_ok": "2026-11-12",
+"seen": "2026-11-12"
+},
+"https://hls-01-radiorecord.hostingradio.ru/record-jackin/96/playlist.m3u8": {
+"fails": 1,
+"last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-jungle/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-liquidfunk/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-livedjsets/112/playlist.m3u8": {
@@ -36410,25 +36422,27 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-mf/96/playlist.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-mini/96/playlist.m3u8": {
-"fails": 0,
-"last_ok": "2026-11-12",
-"seen": "2026-11-12"
-},
-"https://hls-01-radiorecord.hostingradio.ru/record-mix/96/playlist.m3u8": {
 "fails": 1,
 "last_ok": "2026-11-12",
 "reason": "HTTP 503",
 "seen": "2026-11-12"
 },
-"https://hls-01-radiorecord.hostingradio.ru/record-mmbt/96/playlist.m3u8": {
-"fails": 0,
+"https://hls-01-radiorecord.hostingradio.ru/record-mix/96/playlist.m3u8": {
+"fails": 2,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
+"seen": "2026-11-12"
+},
+"https://hls-01-radiorecord.hostingradio.ru/record-mmbt/96/playlist.m3u8": {
+"fails": 1,
+"last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-mt/96/playlist.m3u8": {
@@ -36442,23 +36456,25 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-nashashlyki/112/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-neurofunk/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-organic/96/playlist.m3u8": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-party/96/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -36469,9 +36485,8 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-ps/96/playlist.m3u8": {
-"fails": 4,
-"last_ok": null,
-"reason": "HTTP 503",
+"fails": 0,
+"last_ok": "2026-11-12",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-pump/112/playlist.m3u8": {
@@ -36500,15 +36515,13 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-rock/96/playlist.m3u8": {
-"fails": 2,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-rus/96/playlist.m3u8": {
-"fails": 2,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-russiangold/96/playlist.m3u8": {
@@ -36517,8 +36530,9 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-russianhits/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-rv/96/playlist.m3u8": {
@@ -36537,7 +36551,7 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-summerparty/112/playlist.m3u8": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -36548,8 +36562,9 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-synth/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-techno/96/playlist.m3u8": {
@@ -36563,7 +36578,7 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-techouse/96/playlist.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -36579,20 +36594,20 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-tiesto/96/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-tm/96/playlist.m3u8": {
-"fails": 2,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-trancehits/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-trancehouse/96/playlist.m3u8": {
@@ -36616,8 +36631,9 @@
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-vip/96/playlist.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://hls-01-radiorecord.hostingradio.ru/record-yo/96/playlist.m3u8": {
@@ -36652,7 +36668,7 @@
 "seen": "2026-11-12"
 },
 "https://hls-shansontv.cdnvideo.ru/shansontv/shansontv-sd.smil/playlist.m3u8": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -36704,7 +36720,7 @@
 "seen": "2026-11-12"
 },
 "https://hls.gvstream.live/telesistemas/15tv.stream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -36720,7 +36736,7 @@
 "seen": "2026-11-12"
 },
 "https://hls.pmchd.live/hls/stream.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -36736,7 +36752,7 @@
 "seen": "2026-11-12"
 },
 "https://hls.yourtime.live/hls/stream.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -36767,7 +36783,7 @@
 "seen": "2026-11-12"
 },
 "https://hoth.alonhosting.com:4015/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -36793,7 +36809,7 @@
 "seen": "2026-11-12"
 },
 "https://i.klikhost.com:9044/stream": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -36864,7 +36880,7 @@
 "seen": "2026-11-12"
 },
 "https://ic.mari.co.id:8443/kisfm": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -36980,19 +36996,19 @@
 "seen": "2026-11-12"
 },
 "https://ice.wbcengineering.com:8104/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://ice.wbcengineering.com:8109/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://ice.wbcengineering.com:8119/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -37038,43 +37054,51 @@
 "seen": "2026-11-12"
 },
 "https://ice25.securenetsystems.net/KAFFAM": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://ice25.securenetsystems.net/KSEA": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://ice25.securenetsystems.net/KVRP": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://ice25.securenetsystems.net/KWBY?playSessionID=8CEA9FE2-A786-019C-80260CE3D0E0E401": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://ice25.securenetsystems.net/WASHSTREAM": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://ice26.securenetsystems.net/KMYX": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://ice26.securenetsystems.net/KNAI": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://ice26.securenetsystems.net/KNAI?playSessionID=B712B052-BFD8-3834-051B3D8E1651C875": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://ice3.somafm.com/brfm-128-mp3": {
@@ -37138,13 +37162,13 @@
 "seen": "2026-11-12"
 },
 "https://ice64.securenetsystems.net/WBBXFM": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
-"reason": "HTTP 403",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://icecast.banatfm.ro:8443/banatfm.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -37185,7 +37209,7 @@
 "seen": "2026-11-12"
 },
 "https://icecast.radiowesterwolde.nl:8443/G1_master": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -37206,19 +37230,19 @@
 "seen": "2026-11-12"
 },
 "https://icecast.teveo.cu/3CMM7zph": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://icecast.teveo.cu/9Rnrbjzq": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
-"reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
+"reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://icecast.teveo.cu/Nbtz7HT3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -37289,7 +37313,7 @@
 "seen": "2026-11-12"
 },
 "https://infoasda.com/proxy/maskrudaradio/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "таймаут",
 "seen": "2026-11-12"
@@ -37320,7 +37344,7 @@
 "seen": "2026-11-12"
 },
 "https://inspiratv.siar.us/inspiratv/live/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -37700,9 +37724,8 @@
 "seen": "2026-11-11"
 },
 "https://iptv.itv.uz/hls/live/t/Yv8TO7PtCQ-DJIbxOr9N_g/e/1799038269/4000/index.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "не HLS",
 "seen": "2026-11-12"
 },
 "https://iptv.itv.uz/hls/live/t/YxK2OwaJqDDSvUpq5VssqA/e/1794556813/4012/index.m3u8?ip=45.95.203.252": {
@@ -38098,7 +38121,7 @@
 "seen": "2026-11-12"
 },
 "https://jmc-live.ercdn.net/hawastvhd/hawastvhd.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 500",
 "seen": "2026-11-12"
@@ -38220,7 +38243,7 @@
 "seen": "2026-11-12"
 },
 "https://jouwradio.live-streams.nl/": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -38261,13 +38284,13 @@
 "seen": "2026-11-12"
 },
 "https://kan11.media.kan.org.il/hls/live/2024514/2024514/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -38416,7 +38439,7 @@
 "seen": "2026-11-12"
 },
 "https://kncjstream.com:8443/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -38497,7 +38520,7 @@
 "seen": "2026-11-12"
 },
 "https://latele.vedge.infomaniak.com/livecast/latele/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "таймаут",
 "seen": "2026-11-12"
@@ -38844,7 +38867,7 @@
 "seen": "2026-11-12"
 },
 "https://linux26.live-streams.nl:18000/": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -38855,7 +38878,7 @@
 "seen": "2026-11-12"
 },
 "https://listen.myradio24.com/nalivaiko": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -38906,7 +38929,7 @@
 "seen": "2026-11-12"
 },
 "https://listen.openstream.co/4613/audio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -38972,37 +38995,37 @@
 "seen": "2026-11-12"
 },
 "https://listen.openstream.co/6439/audio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
 },
 "https://listen.openstream.co/6440/audio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
 },
 "https://listen.openstream.co/6452/audio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
 },
 "https://listen.openstream.co/6482/audio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
 },
 "https://listen.openstream.co/6503/audio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
 },
 "https://listen.openstream.co/6504/audio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -39033,13 +39056,13 @@
 "seen": "2026-11-12"
 },
 "https://listen.openstream.co/7010/audio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
 },
 "https://listen.openstream.co/7011/audio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -39115,7 +39138,7 @@
 "seen": "2026-11-12"
 },
 "https://listen1.myradio24.com/171028": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -39196,7 +39219,7 @@
 "seen": "2026-11-12"
 },
 "https://listen3.myradio24.com/ussr": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -39357,7 +39380,7 @@
 "seen": "2026-11-12"
 },
 "https://listen9.myradio24.com/66425": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -39368,7 +39391,7 @@
 "seen": "2026-11-12"
 },
 "https://listen9.myradio24.com/soldatrus": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -39480,7 +39503,7 @@
 "seen": "2026-11-12"
 },
 "https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
@@ -39628,25 +39651,25 @@
 "seen": "2026-11-12"
 },
 "https://live.cdn.joj.sk/live/andromeda/joj-720.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://live.cdn.joj.sk/live/andromeda/joj_news-1080.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://live.cdn.joj.sk/live/andromeda/plus-720.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://live.cdn.joj.sk/live/andromeda/wau-1080.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -40382,9 +40405,9 @@
 "seen": "2026-11-12"
 },
 "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
-"reason": "bad status",
+"reason": "ошибка: _ssl.c:994: The handshake operation timed out",
 "seen": "2026-11-12"
 },
 "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8": {
@@ -40398,7 +40421,7 @@
 "seen": "2026-11-12"
 },
 "https://live.ctbperth.net.au/hls/0/stream.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -40409,19 +40432,19 @@
 "seen": "2026-11-12"
 },
 "https://live.dreamers.id:8443/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://live.ecomservice.bg/hls/stream.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://live.hastitv.com/hls/livetv.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -40442,25 +40465,25 @@
 "seen": "2026-11-12"
 },
 "https://live.ipstream.it/etv/etv.stream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://live.ipstream.it/vb33/vb33.stream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://live.ishiacloud.com/hls/1d6e10dc-7bfc-4abb-9bb3-0dfe80b3d7df_720p.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -40502,13 +40525,13 @@
 "seen": "2026-11-12"
 },
 "https://live.mariatvcdn.com/mariatvpoint/d36592901d5429dd7f9ec1e7bbeda8c2.sdp/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://live.mariatvcdn.com/telebelluno/a3b80388da9801906adf885282e73bc3.sdp/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -40519,25 +40542,25 @@
 "seen": "2026-11-12"
 },
 "https://live.mariatvcdn.com/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://live.mariatvcdn.com/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://live.mariatvcdn.com/teleradiopace3/d2274c22e9ee09eb2eda01ed0496f8f5.sdp/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://live.mariatvcdn.com/teleradiopace6/d289fe76f16ad32afec471ea1b941583.sdp/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -40588,7 +40611,7 @@
 "seen": "2026-11-12"
 },
 "https://live.obslivestream.com/planetatv/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -40634,7 +40657,7 @@
 "seen": "2026-11-12"
 },
 "https://live.pars-israel.com/iptv/stream.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -40660,7 +40683,7 @@
 "seen": "2026-11-12"
 },
 "https://live.radiooradea.ro:9000/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -40686,7 +40709,7 @@
 "seen": "2026-11-12"
 },
 "https://live.radiostudio.be/xmasfm-tease": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -40697,7 +40720,7 @@
 "seen": "2026-11-12"
 },
 "https://live.rednet.rs/providus/redtv_multi_hq/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -40928,73 +40951,73 @@
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/10/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/11/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/12/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/14/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/15/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/16/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/2/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/3/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/4/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/6/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/7/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://live.teleradiocom.tj/9/3m.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -41045,8 +41068,9 @@
 "seen": "2026-11-12"
 },
 "https://live.zendzend.com/mpegts/29375_107244/master_mpegts.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://live.zendzend.com/mpegts/29375_395474/media_mpegts_1.m3u8": {
@@ -41122,7 +41146,7 @@
 "seen": "2026-11-12"
 },
 "https://live20.bozztv.com/akamaissh101/ssh101/jnetv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -41164,7 +41188,7 @@
 "seen": "2026-11-12"
 },
 "https://live3.livemus.com.br:27048/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -41190,7 +41214,7 @@
 "seen": "2026-11-12"
 },
 "https://live8.livemus.com.br:27246/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -41201,13 +41225,13 @@
 "seen": "2026-11-12"
 },
 "https://live9.livemus.com.br:27292/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://live9.livemus.com.br:27458/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -41278,25 +41302,25 @@
 "seen": "2026-11-12"
 },
 "https://livefta.malimarcdn.com/ftaedge00/laochampa1.sdp/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://livefta.malimarcdn.com/ftaedge00/laochampa2.stream/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://livefta.malimarcdn.com/ftaedge00/laochampa3.stream/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://livefta.malimarcdn.com/ftaedge00/laoheritagetv.sdp/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -41342,7 +41366,7 @@
 "seen": "2026-11-12"
 },
 "https://livefta.malimarcdn.com/ftaedge00/teatv2.sdp/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -41364,13 +41388,13 @@
 "seen": "2026-11-12"
 },
 "https://livekhabar-srt.cdnvideo.ru/khabarsrt/khabarsrt/tracks-v1a1/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://livestream.5centscdn.com/shaditv/23abe62a446fc05ce0a6c810f4045308.sdp/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -41401,7 +41425,7 @@
 "seen": "2026-11-12"
 },
 "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b2650000_sltur.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -41647,13 +41671,13 @@
 "seen": "2026-11-12"
 },
 "https://ma.anixa.tv/clips/stream/anixehd/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://makan.media.kan.org.il/hls/live/2024680/2024680/source1_1.2k/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -41675,7 +41699,7 @@
 "seen": "2026-11-12"
 },
 "https://manager7.streamradio.fr:2325/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -41691,7 +41715,7 @@
 "seen": "2026-11-12"
 },
 "https://manager7.streamradio.fr:2935/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -41702,7 +41726,7 @@
 "seen": "2026-11-12"
 },
 "https://manar.live/x.smil/tracks-v1a1/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: TLSV13_ALERT_CERTIFICATE_REQUIRED] tlsv13 alert certificate required (_ssl.c:2581)",
 "seen": "2026-11-12"
@@ -41713,7 +41737,7 @@
 "seen": "2026-11-12"
 },
 "https://master.starmena-cloud.com/hls/yemenshabab.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -41818,7 +41842,7 @@
 "seen": "2026-11-12"
 },
 "https://media02.webtvlive.eu/chd-edge/_definst_/smil:chamber_tv_hd.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -41834,25 +41858,25 @@
 "seen": "2026-11-12"
 },
 "https://media2.livaat.com/TAHA-TV/tracks-v1a1/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://media425.digitar.net:8081/fishertonclassic.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://media425.digitar.net:8141/radio.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://media425.digitar.net:8221/la100.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -41868,19 +41892,19 @@
 "seen": "2026-11-12"
 },
 "https://mediacp.us:8081/azatvhd/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://mediacp.us:8081/ctvhn/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://mediacp15.rootservers.co:8076/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -41936,67 +41960,67 @@
 "seen": "2026-11-12"
 },
 "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=16": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=16": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=16": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=16": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=16": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=16": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=16": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=16": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=16": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=16": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -42012,13 +42036,13 @@
 "seen": "2026-11-12"
 },
 "https://mediaserv21.live-streams.nl:18000/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://mediaserv30.live-streams.nl:18079/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -42029,19 +42053,19 @@
 "seen": "2026-11-12"
 },
 "https://mediaserv38.live-streams.nl:18007/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://mediaserv38.live-streams.nl:18029/radio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://mediaserv38.live-streams.nl:18030/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -42077,13 +42101,13 @@
 "seen": "2026-11-12"
 },
 "https://mgv-channel19.akamaized.net/hls/live/2093190/MGV_CHANNEL19/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://mgv-channel21.akamaized.net/hls/live/2093191/MGV_CHANNEL21/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
@@ -44232,7 +44256,7 @@
 "seen": "2026-11-12"
 },
 "https://mn-nl.mncdn.com/awraastv/awraastv_hd.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "bad status",
 "seen": "2026-11-12"
@@ -44348,7 +44372,7 @@
 "seen": "2026-11-12"
 },
 "https://mp3stream.wfsu.org:8443/889hi": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -44394,7 +44418,7 @@
 "seen": "2026-11-12"
 },
 "https://ms7.mx-cd.net/tv/113-474263/EdeTV.smil/chunklist_w1121029744_b1894400_slNLD.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -64100,7 +64124,7 @@
 "seen": "2026-11-12"
 },
 "https://muzkurd.com/sterktv/sterk/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -64217,7 +64241,7 @@
 "seen": "2026-11-12"
 },
 "https://myradio24.org/6870": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -64298,7 +64322,7 @@
 "seen": "2026-11-12"
 },
 "https://myradio24.org/beats": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -64324,13 +64348,13 @@
 "seen": "2026-11-12"
 },
 "https://myradio24.org/ekbfm": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://myradio24.org/kalina": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -64447,7 +64471,7 @@
 "seen": "2026-11-12"
 },
 "https://nerbioi.radiopopular.eus/bizkaiairratia2": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -64498,7 +64522,7 @@
 "seen": "2026-11-12"
 },
 "https://news.ctbperth.net.au/hls/0/stream.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -64509,7 +64533,7 @@
 "seen": "2026-11-12"
 },
 "https://ngtrk.dc.beltelecom.by/ctv/ctv.stream/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -64610,13 +64634,13 @@
 "seen": "2026-11-12"
 },
 "https://nr11.newradio.it:19193/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://nr14.newradio.it:8603/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -64803,7 +64827,7 @@
 "seen": "2026-11-12"
 },
 "https://onair22.xdevel.com/proxy/xautocloud_1kha_423?mp=%2Fstream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -64824,19 +64848,19 @@
 "seen": "2026-11-12"
 },
 "https://online-radio-play.com/radeo/radio_play.php?url=http://s6.reliastream.com:8160/;": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "пустой ответ",
 "seen": "2026-11-12"
 },
 "https://online.arrateirratia.eus/zuzenean": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://online.classicradio.com.ua/ClassicRadio_HD": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -64852,7 +64876,7 @@
 "seen": "2026-11-12"
 },
 "https://online.intervolna.ru:8433/radio192": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -64958,13 +64982,13 @@
 "seen": "2026-11-12"
 },
 "https://ordacast.astanatv.kz:8443/orda": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://origin.radioca.st/;": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -64990,7 +65014,7 @@
 "seen": "2026-11-12"
 },
 "https://owifavo5.rocketcdn.com/gstv/gstv.smil/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -65016,7 +65040,7 @@
 "seen": "2026-11-12"
 },
 "https://paginas.moisespaulino.com/proxy/magisfm/xstream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -65052,7 +65076,7 @@
 "seen": "2026-11-12"
 },
 "https://panel.host-live.com:19360/20000/20000.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -65119,13 +65143,13 @@
 "seen": "2026-11-12"
 },
 "https://phoebe.streamerr.co:5250/;?nocache=1756326084&type=http": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://planet90.beheerstream.nl:8010/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -65136,7 +65160,7 @@
 "seen": "2026-11-12"
 },
 "https://plataformavideo.com/live/nortvision.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -65318,7 +65342,7 @@
 "seen": "2026-11-12"
 },
 "https://proxy.srvstr.com.br/str01/29074": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -65329,7 +65353,7 @@
 "seen": "2026-11-12"
 },
 "https://pu.klikhost.com/proxy/kpfmbpn/stream": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -65380,13 +65404,13 @@
 "seen": "2026-11-12"
 },
 "https://puma.streemlion.com:3785/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://puma.streemlion.com:3825/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -65468,7 +65492,7 @@
 "seen": "2026-11-12"
 },
 "https://qvmstream.tulix.tv/720p/720p/chunklist_w1600218747.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -65484,7 +65508,7 @@
 "seen": "2026-11-12"
 },
 "https://radio-24.ru/audio2.php?url=http://91.195.86.238:8000/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -65505,7 +65529,7 @@
 "seen": "2026-11-12"
 },
 "https://radio.banyuwangikab.go.id/live": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -65531,7 +65555,7 @@
 "seen": "2026-11-12"
 },
 "https://radio.clickandcountry.cz:8443/clickandcountry.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -65577,7 +65601,7 @@
 "seen": "2026-11-12"
 },
 "https://radio.host.com.py:7053/;": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -65633,7 +65657,7 @@
 "seen": "2026-11-12"
 },
 "https://radio.maradiocountry.net:8000/mrc": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -65644,7 +65668,7 @@
 "seen": "2026-11-12"
 },
 "https://radio.mipanel.stream:6672/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -65670,7 +65694,7 @@
 "seen": "2026-11-12"
 },
 "https://radio.nikatv.ru/;.mp4": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -65686,25 +65710,25 @@
 "seen": "2026-11-12"
 },
 "https://radio.promodj.com/186mph-192": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://radio.promodj.com/300kmh-192": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://radio.promodj.com/strange-192": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://radio.promodj.com:443/vata-192": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -65715,7 +65739,7 @@
 "seen": "2026-11-12"
 },
 "https://radio.rock-omlet.com/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -65726,7 +65750,7 @@
 "seen": "2026-11-12"
 },
 "https://radio.servradio.com/9066/;": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -65782,7 +65806,7 @@
 "seen": "2026-11-12"
 },
 "https://radio.streaminghires.cl/8008/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -65823,13 +65847,13 @@
 "seen": "2026-11-12"
 },
 "https://radio.streemlion.com:2295/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://radio.streemlion.com:2435/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -65850,7 +65874,7 @@
 "seen": "2026-11-12"
 },
 "https://radio.streemlion.com:5325/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -65861,7 +65885,7 @@
 "seen": "2026-11-12"
 },
 "https://radio.telemicro.com.do/lakallesantiago": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -65902,13 +65926,13 @@
 "seen": "2026-11-12"
 },
 "https://radio01.ferozo.com/proxy/ra01000860?mp=%2Fstream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://radio01.ferozo.com/proxy/ra01001205?mp=/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -65944,7 +65968,7 @@
 "seen": "2026-11-12"
 },
 "https://radio1.stickerfm.ru:8443/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -66130,13 +66154,13 @@
 "seen": "2026-11-12"
 },
 "https://radio4.pro-fhi.net/flux-xiricxbc/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://radio4.vip-radios.fm:18060/stream-128kmp3-SmoothJazzLounge;": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -66197,7 +66221,7 @@
 "seen": "2026-11-12"
 },
 "https://radioadrar.ice.infomaniak.ch/adrar.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -66208,7 +66232,7 @@
 "seen": "2026-11-12"
 },
 "https://radiobatna.ice.infomaniak.ch/batna.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -66224,7 +66248,7 @@
 "seen": "2026-11-12"
 },
 "https://radiobzlive.rai.it/RAI_Suedtirol": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -66270,13 +66294,13 @@
 "seen": "2026-11-12"
 },
 "https://radioconstantine.ice.infomaniak.ch/constantine.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
 },
 "https://radiocoran.ice.infomaniak.ch/coran.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -66297,7 +66321,7 @@
 "seen": "2026-11-12"
 },
 "https://radioelbayedh.ice.infomaniak.ch/radioelbayedh.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -66308,7 +66332,7 @@
 "seen": "2026-11-12"
 },
 "https://radiohd.streaminghd.co:7006/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: _ssl.c:994: The handshake operation timed out",
 "seen": "2026-11-12"
@@ -66329,7 +66353,7 @@
 "seen": "2026-11-12"
 },
 "https://radioillizi.ice.infomaniak.ch/illizi.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -66360,7 +66384,7 @@
 "seen": "2026-11-12"
 },
 "https://radiokhenchela.ice.infomaniak.ch/khenchela.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -66376,19 +66400,19 @@
 "seen": "2026-11-12"
 },
 "https://radiomascara.ice.infomaniak.ch/mascara.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
 },
 "https://radiomostaganem.ice.infomaniak.ch/mostaganem.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
 },
 "https://radiomusic.newradio.it/easyanditaly": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -66439,7 +66463,7 @@
 "seen": "2026-11-12"
 },
 "https://radiorelizan.ice.infomaniak.ch/relizan.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -66450,13 +66474,13 @@
 "seen": "2026-11-12"
 },
 "https://radios.lapoderosacpanel.com/listen/boleros/mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://radios.lapoderosacpanel.com/listen/instrumental/mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -66487,7 +66511,7 @@
 "seen": "2026-11-12"
 },
 "https://radiosaida.ice.infomaniak.ch/saida.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -66548,13 +66572,13 @@
 "seen": "2026-11-12"
 },
 "https://radiosetif.ice.infomaniak.ch/setif.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
 },
 "https://radiosoukahras.ice.infomaniak.ch/soukahras.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -66605,7 +66629,7 @@
 "seen": "2026-11-12"
 },
 "https://radiostreaming.ert.gr/ert-seasonal": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -66626,19 +66650,19 @@
 "seen": "2026-11-12"
 },
 "https://radiotaref.ice.infomaniak.ch/taref.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
 },
 "https://radiotindouf.ice.infomaniak.ch/tindouf.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
 },
 "https://radiotipaza.ice.infomaniak.ch/tipaza.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -66664,7 +66688,7 @@
 "seen": "2026-11-12"
 },
 "https://radiozender.mpbnetwerken.nl/radioulster.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 301",
 "seen": "2026-11-12"
@@ -66725,25 +66749,25 @@
 "seen": "2026-11-12"
 },
 "https://rakuten-family-7-fr.samsung.wurl.tv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://rakuten-films-francais-1-eu.rakuten.wurl.tv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://rakuten-thriller-7-eu.rakuten.wurl.tv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://rakuten-tvshows-7-fr.samsung.wurl.tv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -66754,7 +66778,7 @@
 "seen": "2026-11-12"
 },
 "https://ramradiolibre.ice.infomaniak.ch/ramradiolibre-96.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -66966,7 +66990,7 @@
 "seen": "2026-11-12"
 },
 "https://rfs1.farra.com.py:9433/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -76572,7 +76596,7 @@
 "seen": "2026-11-12"
 },
 "https://roughradio1.out.airtime.pro/roughradio1_a": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -76628,19 +76652,19 @@
 "seen": "2026-11-12"
 },
 "https://rps1.radiopop.com.py:9433/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://rrsatrtmp.tulix.tv/addis1/addis1multi.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://rs2.ptservidor.com/proxy/carlos31?mp=/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -76651,7 +76675,7 @@
 "seen": "2026-11-12"
 },
 "https://rst.saiuzwebnetwork.it:8081/teleischia/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -77369,7 +77393,7 @@
 "seen": "2026-11-12"
 },
 "https://s.emisoras.tv:8081/telerayo/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -77447,7 +77471,7 @@
 "seen": "2026-11-12"
 },
 "https://s02.svrdedicado.org:6848/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -77698,7 +77722,7 @@
 "seen": "2026-11-12"
 },
 "https://s1.mvzd.ru/content/ga/rr/Garri_Potter_i_Dary_Smerti_Chast_2_2011_BDRip_1080p_1080p.m3u": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 500",
 "seen": "2026-11-12"
@@ -78044,7 +78068,7 @@
 "seen": "2026-11-12"
 },
 "https://s1.mvzd.ru/content/th/el/The_Lord_of_the_Rings-The_Two_Towers_2002_Extended-Cut_BDRip-AVC_-HQCL_1080p.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -78080,7 +78104,7 @@
 "seen": "2026-11-12"
 },
 "https://s1.raudiostream.com:8004/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -78121,37 +78145,37 @@
 "seen": "2026-11-12"
 },
 "https://s1.voscast.com:10243/lovefm": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s1.voscast.com:10451/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s1.voscast.com:10585/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s1.voscast.com:10871/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s1.voscast.com:11401/eastradio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s1.voscast.com:8653/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -78167,7 +78191,7 @@
 "seen": "2026-11-12"
 },
 "https://s10.citrus3.com:8278/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -78203,8 +78227,9 @@
 "seen": "2026-11-12"
 },
 "https://s10.webradio-hosting.com/proxy/fredradiodk/stream/": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 401",
 "seen": "2026-11-12"
 },
 "https://s10.webradio-hosting.com/proxy/fredradioec/stream/": {
@@ -78308,7 +78333,7 @@
 "seen": "2026-11-12"
 },
 "https://s12.myradiostream.com:17550/listen.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: _ssl.c:994: The handshake operation timed out",
 "seen": "2026-11-12"
@@ -78319,7 +78344,7 @@
 "seen": "2026-11-12"
 },
 "https://s12.myradiostream.com:5608/listen.mp3": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -78560,7 +78585,7 @@
 "seen": "2026-11-12"
 },
 "https://s2.myradiostream.com:4520/listen.m4a": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -78606,25 +78631,25 @@
 "seen": "2026-11-12"
 },
 "https://s2.voscast.com:10893/kzsf": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s2.voscast.com:11393/default": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s2.voscast.com:11953/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s2.voscast.com:7409/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -78740,19 +78765,19 @@
 "seen": "2026-11-12"
 },
 "https://s3.voscast.com:10435/stream?ver=539771": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s3.voscast.com:11007/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s3.voscast.com:11561/misc": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -78763,7 +78788,7 @@
 "seen": "2026-11-12"
 },
 "https://s33.myradiostream.com:12782/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: _ssl.c:994: The handshake operation timed out",
 "seen": "2026-11-12"
@@ -80159,7 +80184,7 @@
 "seen": "2026-11-12"
 },
 "https://s5.mvzd.ru/content/84/n1/1939_Gunga_Din_torrents_ru__1080p.m3u88": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -80795,37 +80820,37 @@
 "seen": "2026-11-12"
 },
 "https://s5.voscast.com:10151/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s5.voscast.com:10205/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s5.voscast.com:8517/stream.ogg": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s5.voscast.com:9097/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s5.voscast.com:9755/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s5.voscast.com:9905/EMMANDUSO": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -81156,7 +81181,7 @@
 "seen": "2026-11-12"
 },
 "https://s6.mvzd.ru/content/kc/5o/Dzhek_Rayan_Prizrachnaya_voyna_Tom_Clancy_s_Jack_Ryan_Ghost_War_2026__1080p.m3u88": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -81377,7 +81402,7 @@
 "seen": "2026-11-12"
 },
 "https://s7.voscast.com:10053/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -81414,7 +81439,7 @@
 "seen": "2026-11-12"
 },
 "https://s8.voscast.com:8617/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -81450,19 +81475,19 @@
 "seen": "2026-11-12"
 },
 "https://s9.voscast.com:9573/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s9.voscast.com:9593/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://s9.voscast.com:9705/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -81573,7 +81598,7 @@
 "seen": "2026-11-12"
 },
 "https://securecontributions.sechls01.visionip.tv/live/securecontributions-securecontributions-92_news-hsslive-25f-16x9-SD/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -81594,7 +81619,7 @@
 "seen": "2026-11-12"
 },
 "https://securestream.euroradio.fm/euroradio1": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -81630,19 +81655,19 @@
 "seen": "2026-11-12"
 },
 "https://securestreams5.autopo.st:1828/APS%20Radio%20Bluegrass": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
 },
 "https://securestreams5.autopo.st:1828/APS%20Radio%20Blues": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
 },
 "https://securestreams5.autopo.st:1828/APS%20Radio%20Country": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -81683,7 +81708,7 @@
 "seen": "2026-11-12"
 },
 "https://securestreams6.autopo.st:2453/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL] record layer failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -81719,7 +81744,7 @@
 "seen": "2026-11-12"
 },
 "https://server.laradio.online/proxy/noe_solis?mp=%2Fstream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -81730,7 +81755,7 @@
 "seen": "2026-11-12"
 },
 "https://server.laradio.online:59009/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -81881,7 +81906,7 @@
 "seen": "2026-11-12"
 },
 "https://server20.servistreaming.com:9032/stream?type=.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -81892,7 +81917,7 @@
 "seen": "2026-11-12"
 },
 "https://server5.radio-streams.net:8048/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -81953,7 +81978,7 @@
 "seen": "2026-11-12"
 },
 "https://servidor17.brlogic.com:8262/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -81964,7 +81989,7 @@
 "seen": "2026-11-12"
 },
 "https://servidor19-5.brlogic.com:7180/live?source=website": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -81980,7 +82005,7 @@
 "seen": "2026-11-12"
 },
 "https://servidor20.brlogic.com:7452/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -82031,13 +82056,13 @@
 "seen": "2026-11-12"
 },
 "https://servidor23-1.brlogic.com:7040/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://servidor24.brlogic.com:7058/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -82138,13 +82163,13 @@
 "seen": "2026-11-12"
 },
 "https://servidor32-4.brlogic.com:8468/live?source=website": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://servidor32.brlogic.com:8138/live?type=.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -82175,7 +82200,7 @@
 "seen": "2026-11-12"
 },
 "https://servidor34.brlogic.com:8068/live?identifier=onlineradiobox.com&source=3637http%3A%2F%2F74.63.250.84%3A8068%2Flive": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -82226,7 +82251,7 @@
 "seen": "2026-11-12"
 },
 "https://servidor36.brlogic.com:8300/live?type=.mp3": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -82277,7 +82302,7 @@
 "seen": "2026-11-12"
 },
 "https://servidor39-2.brlogic.com:7044/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -82318,25 +82343,25 @@
 "seen": "2026-11-12"
 },
 "https://servilive.com:3028/live/jntv19live.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://servilive.com:3224/live/jn19tv2live.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://servilive.com:3624/stream/play.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
 },
 "https://servilive.com:3757/live/regiontvlive.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -82368,13 +82393,13 @@
 "seen": "2026-11-12"
 },
 "https://shls-masr-prod-dub.shahid.net/out/v1/b7093401da27496797a8949de23f4578/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://shls-masr2-prod-dub.shahid.net/out/v1/f683685242b549f48ea8a5171e3e993a/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -82416,7 +82441,7 @@
 "seen": "2026-11-12"
 },
 "https://shoutcast.digitalmash.com.br:7036/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -82432,7 +82457,7 @@
 "seen": "2026-11-12"
 },
 "https://shuffleradio.radioca.st/stream": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -82654,7 +82679,7 @@
 "seen": "2026-11-12"
 },
 "https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -82670,7 +82695,7 @@
 "seen": "2026-11-12"
 },
 "https://songtv.hls.iptvdc.com/web-armenia/tracks-v1a1/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -83791,7 +83816,7 @@
 "seen": "2026-11-12"
 },
 "https://srv01.gpmradio.ru/stream/trust/mp3/128/150": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -83802,7 +83827,7 @@
 "seen": "2026-11-12"
 },
 "https://srv01.gpmradio.ru/stream/trust/mp3/128/170": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -83813,7 +83838,7 @@
 "seen": "2026-11-12"
 },
 "https://srv01.gpmradio.ru/stream/trust/mp3/128/18": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -83894,7 +83919,7 @@
 "seen": "2026-11-12"
 },
 "https://srv01.gpmradio.ru/stream/trust/mp3/128/7": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -83915,7 +83940,7 @@
 "seen": "2026-11-12"
 },
 "https://srv3.elittehosting.com:8004/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -83936,13 +83961,13 @@
 "seen": "2026-11-12"
 },
 "https://ss2.domint.net:3202/rnn_str/canal27/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
 },
 "https://ss3.domint.net:3108/zol_str/vzol/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -84018,7 +84043,7 @@
 "seen": "2026-11-12"
 },
 "https://sslstream.online/8450/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -84211,7 +84236,7 @@
 "seen": "2026-11-12"
 },
 "https://stm.colossocast.com.br:7020/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -84288,7 +84313,7 @@
 "seen": "2026-11-12"
 },
 "https://stm1.srvif.com:7100/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -84409,7 +84434,7 @@
 "seen": "2026-11-12"
 },
 "https://stm13.painelcast.com:7778/stream//": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -84425,7 +84450,7 @@
 "seen": "2026-11-12"
 },
 "https://stm14.xcast.com.br:10998/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -84451,7 +84476,7 @@
 "seen": "2026-11-12"
 },
 "https://stm15.xcast.com.br:8228/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -84557,7 +84582,7 @@
 "seen": "2026-11-12"
 },
 "https://stm2.aovivodigital.com.br:10462/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -84583,7 +84608,7 @@
 "seen": "2026-11-12"
 },
 "https://stm2.roxcast.com.br:7276/stream?": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -84629,7 +84654,7 @@
 "seen": "2026-11-12"
 },
 "https://stm20.voxhd.com.br:10946/stream": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -84760,7 +84785,7 @@
 "seen": "2026-11-12"
 },
 "https://stm25.xcast.com.br:8124/stream?1762299086777": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -84846,7 +84871,7 @@
 "seen": "2026-11-12"
 },
 "https://stm4.srvif.com:8214/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -84897,7 +84922,7 @@
 "seen": "2026-11-12"
 },
 "https://stm6.srvvox.com.br:7062/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -84963,19 +84988,19 @@
 "seen": "2026-11-12"
 },
 "https://stmv1.srvif.com/puringla/puringla/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://stmv1.voxhdnet.com/dmjsurtv/dmjsurtv/chunklist_w1426833766.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://stmv1.voxhdnet.com/sistemascusco/sistemascusco/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -84986,7 +85011,7 @@
 "seen": "2026-11-12"
 },
 "https://stormcast-telenovelatv-1-fr.samsung.wurl.tv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -85007,7 +85032,7 @@
 "seen": "2026-11-12"
 },
 "https://str02.kfmidia.com.br:6716/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -85018,7 +85043,7 @@
 "seen": "2026-11-12"
 },
 "https://str1.tvcom.uz/RADIO-GRAND/shoutcast": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
@@ -85066,7 +85091,7 @@
 "seen": "2026-11-12"
 },
 "https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -85117,7 +85142,7 @@
 "seen": "2026-11-12"
 },
 "https://stream-ssl.arenastreaming.com:8015/palembang": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -85153,7 +85178,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.4fun.tv:8888/hls/4f_med/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -85279,7 +85304,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.dc.beltelecom.by/ont/ont/chunklist_w1061477908.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -85295,7 +85320,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.e2is.in/hls/indoztv.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -85306,13 +85331,13 @@
 "seen": "2026-11-12"
 },
 "https://stream.elzappero.net/tvglubczyce.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://stream.entrancedmusic.com/ogg.flac.m3u": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -85358,7 +85383,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.fro.at/fro-128.ogg": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -85459,7 +85484,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.jokmah.it:8012/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -85576,7 +85601,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.kuban.fm:9443/": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -85637,37 +85662,37 @@
 "seen": "2026-11-12"
 },
 "https://stream.mjoy.ua:8443/kredens-cafe-radio_mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://stream.mjoy.ua:8443/radio-egoisty": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://stream.motherearthradio.de/listen/motherearth/motherearth.flac-lo": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 301",
 "seen": "2026-11-12"
 },
 "https://stream.motherearthradio.de/listen/motherearth_instrumental/motherearth.instrumental.flac-lo": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 301",
 "seen": "2026-11-12"
 },
 "https://stream.motherearthradio.de/listen/motherearth_jazz/motherearth.jazz.flac-lo": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 301",
 "seen": "2026-11-12"
 },
 "https://stream.motherearthradio.de/listen/motherearth_klassik/motherearth.klassik.flac-lo": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 301",
 "seen": "2026-11-12"
@@ -85728,19 +85753,19 @@
 "seen": "2026-11-12"
 },
 "https://stream.oromartv.com:8082/hls/oromartv_hi/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "завис >20с",
 "seen": "2026-11-12"
 },
 "https://stream.oursnetworktv.com/latin/talangatv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://stream.oursnetworktv.com/latin/telaVision/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -85761,7 +85786,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.pervoe.fm:8443/": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -85788,7 +85813,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.raajje.mv/live/rtv_live/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -85844,7 +85869,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.radiokrs.me:8443/lq.mp3": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -85910,7 +85935,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.rcast.net/62295": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 500",
 "seen": "2026-11-12"
@@ -85981,7 +86006,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.rjtv.stream/live/smil:rjtv.smil/chunklist_w365906041_b2892000.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -86170,7 +86195,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.splug.com.br/Radio97": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -86216,7 +86241,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.swagit.com/live-edge/glendaleaz/smil:std-4x3-1-a/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -86227,7 +86252,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.syritv.al/SyriTV/tracks-v1a1/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 503",
 "seen": "2026-11-12"
@@ -86238,7 +86263,7 @@
 "seen": "2026-11-12"
 },
 "https://stream.topradio.in.ua/topradio.mp3": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -86260,13 +86285,13 @@
 "seen": "2026-11-12"
 },
 "https://stream.tvlux.sk/lux/ngrp:lux.stream_all/chunklist_b1042000.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://stream.urfan.id/radio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -86404,7 +86429,7 @@
 "seen": "2026-11-12"
 },
 "https://stream03.ustream.ca/cism128.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -86421,7 +86446,7 @@
 "seen": "2026-11-12"
 },
 "https://stream1.aswifi.it/italiachannel/stream/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -86442,19 +86467,19 @@
 "seen": "2026-11-12"
 },
 "https://stream1.noctel.com:7115/K234AU": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://stream1.profit.ro:1945/profit/livestream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://stream1.radiomfk.dk/radiomfk": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -86600,7 +86625,7 @@
 "seen": "2026-11-12"
 },
 "https://stream2.datacenter.by/gomelplus?1692097739457": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -86661,13 +86686,13 @@
 "seen": "2026-11-12"
 },
 "https://stream3.nadaje.com:8007/radom2": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://stream3.nadaje.com:8029/radiooko?n=21560f4649b1eb771e97": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -86708,43 +86733,43 @@
 "seen": "2026-11-12"
 },
 "https://stream4.nadaje.com:10122/rg-20kbps.aac": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://stream4.nadaje.com:10122/rzg-20kbps.aac": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://stream4.nadaje.com:10125/kaszebe128": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://stream4.nadaje.com:15007/sudety24": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://stream4.nadaje.com:8309/ostrowiec": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://stream4.nadaje.com:8625/mcradio": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://stream4.nadaje.com:9855/test": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -86835,7 +86860,7 @@
 "seen": "2026-11-12"
 },
 "https://stream6.nadaje.com:8087/ciechanow": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -87019,8 +87044,9 @@
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1043/tracks-v1a1/mono.m3u8": {
@@ -87029,14 +87055,14 @@
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1045/tracks-v1a1/mono.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1046/tracks-v1a1/mono.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1047/tracks-v1a1/mono.m3u8": {
@@ -87060,9 +87086,8 @@
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1052/tracks-v1a1/mono.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1053/tracks-v1a1/mono.m3u8": {
@@ -87076,8 +87101,9 @@
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1056/tracks-v1a1/mono.m3u8": {
@@ -87101,9 +87127,8 @@
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1061/tracks-v1a1/mono.m3u8": {
@@ -87132,9 +87157,8 @@
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1204/tracks-v1a1/mono.m3u8": {
@@ -87153,9 +87177,8 @@
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1207/tracks-v1a1/mono.m3u8": {
-"fails": 2,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8": {
@@ -87262,9 +87285,8 @@
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1235/tracks-v1a1/mono.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8": {
@@ -87380,9 +87402,8 @@
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1266/tracks-v1a1/mono.m3u8": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1267/tracks-v1a1/mono.m3u8": {
@@ -87428,8 +87449,9 @@
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 403",
 "seen": "2026-11-12"
 },
 "https://stream8.cinerama.uz/1405/tracks-v1a1/mono.m3u8": {
@@ -87740,14 +87762,15 @@
 "seen": "2026-11-12"
 },
 "https://streamer01.myvideoplace.tv/streamer02/hls/MDS_VIA_PAD_301117.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
 },
 "https://streamer1.connectto.com/AABC_WEB_1201/tracks-v1a1/mono.m3u8": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "HTTP 503",
 "seen": "2026-11-12"
 },
 "https://streamer1.connectto.com/AMGA_WEB_1202/playlist.m3u8": {
@@ -87767,7 +87790,7 @@
 "seen": "2026-11-12"
 },
 "https://streamer1.connectto.com/Noor_275/tracks-v1a1/mono.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "таймаут",
 "seen": "2026-11-12"
@@ -87893,7 +87916,7 @@
 "seen": "2026-11-12"
 },
 "https://streaming.brazink.com/?p=7045": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -88290,7 +88313,7 @@
 "seen": "2026-11-12"
 },
 "https://streaming04.liveboxstream.uk/proxy/jlofth00?mp=%2Fstream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -88396,7 +88419,7 @@
 "seen": "2026-11-12"
 },
 "https://streaming2.elitecomunicacion.es:8134//stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -88442,13 +88465,13 @@
 "seen": "2026-11-12"
 },
 "https://streamingraddios.online/proxy/chispacr?mp=%2Fstream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://streamingv2.shoutcast.com/mcqsjazzcom": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "таймаут",
 "seen": "2026-11-12"
@@ -88475,26 +88498,25 @@
 "seen": "2026-11-12"
 },
 "https://streams.freetalklive.com:8443/ftl64": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
 },
 "https://streams.greenhost.nl:8006/amateurmuziek": {
-"fails": 0,
-"last_ok": "2026-11-12",
-"seen": "2026-11-12"
-},
-"https://streams.greenhost.nl:8006/barok": {
 "fails": 1,
 "last_ok": "2026-11-12",
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
-"https://streams.greenhost.nl:8006/chanson": {
-"fails": 2,
+"https://streams.greenhost.nl:8006/barok": {
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "ошибка: [Errno 111] Connection refused",
+"seen": "2026-11-12"
+},
+"https://streams.greenhost.nl:8006/chanson": {
+"fails": 0,
+"last_ok": "2026-11-12",
 "seen": "2026-11-12"
 },
 "https://streams.greenhost.nl:8006/gregoriaans": {
@@ -88513,9 +88535,8 @@
 "seen": "2026-11-12"
 },
 "https://streams.greenhost.nl:8006/live": {
-"fails": 1,
+"fails": 0,
 "last_ok": "2026-11-12",
-"reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://streams.greenhost.nl:8006/nieuwemuziek": {
@@ -88524,19 +88545,20 @@
 "seen": "2026-11-12"
 },
 "https://streams.greenhost.nl:8006/novembermusic": {
-"fails": 0,
-"last_ok": "2026-11-12",
-"seen": "2026-11-12"
-},
-"https://streams.greenhost.nl:8006/orientexpress": {
-"fails": 0,
-"last_ok": "2026-11-12",
-"seen": "2026-11-12"
-},
-"https://streams.greenhost.nl:8006/oudemuziek": {
 "fails": 1,
 "last_ok": "2026-11-12",
 "reason": "ошибка: [Errno 111] Connection refused",
+"seen": "2026-11-12"
+},
+"https://streams.greenhost.nl:8006/orientexpress": {
+"fails": 1,
+"last_ok": "2026-11-12",
+"reason": "ошибка: [Errno 111] Connection refused",
+"seen": "2026-11-12"
+},
+"https://streams.greenhost.nl:8006/oudemuziek": {
+"fails": 0,
+"last_ok": "2026-11-12",
 "seen": "2026-11-12"
 },
 "https://streams.greenhost.nl:8006/pop": {
@@ -88550,14 +88572,15 @@
 "seen": "2026-11-12"
 },
 "https://streams.greenhost.nl:8006/vredenburg": {
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-11-12",
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://streams.greenhost.nl:8006/wereldmuziek": {
-"fails": 0,
+"fails": 1,
 "last_ok": "2026-11-12",
+"reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://streams.pacifica.org:9000/kpfk_128": {
@@ -88597,7 +88620,7 @@
 "seen": "2026-11-12"
 },
 "https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -88633,7 +88656,7 @@
 "seen": "2026-11-12"
 },
 "https://strw3.openstream.co/445": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -88689,7 +88712,7 @@
 "seen": "2026-11-12"
 },
 "https://sulatv1.ddns.net/hls/live/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -88710,19 +88733,19 @@
 "seen": "2026-11-12"
 },
 "https://surinetradio.beheerstream.nl:8066/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
 },
 "https://sv.stri.my.id:3310/rbtfm": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 401",
 "seen": "2026-11-12"
 },
 "https://sv10.hdradios.net:26412/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -88768,7 +88791,7 @@
 "seen": "2026-11-12"
 },
 "https://sv16.hdradios.net:9230/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -88799,7 +88822,7 @@
 "seen": "2026-11-12"
 },
 "https://t2.tvmak.com/tv/TV2GV.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "пустой ответ",
 "seen": "2026-11-12"
@@ -88835,7 +88858,7 @@
 "seen": "2026-11-12"
 },
 "https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -89051,7 +89074,7 @@
 "seen": "2026-11-12"
 },
 "https://trion.b-cdn.net/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -89067,13 +89090,13 @@
 "seen": "2026-11-12"
 },
 "https://tupanel.info:9940/;": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://tuso.cdn-01.cosmonova.net.ua/hls/tuso_ua_mid/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -89171,7 +89194,7 @@
 "seen": "2026-11-12"
 },
 "https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
@@ -89182,7 +89205,7 @@
 "seen": "2026-11-12"
 },
 "https://tvreg.klemit.net/regionalna/stream/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
@@ -89228,13 +89251,13 @@
 "seen": "2026-11-12"
 },
 "https://tx.sharp-stream.com/icecast.php?i=midwestfmie2.aac": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://tx.sharp-stream.com/icecast.php?i=thamesradio.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -89245,7 +89268,7 @@
 "seen": "2026-11-12"
 },
 "https://ubnt.xtraya.com/radioimpuls.mp3": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -89337,7 +89360,7 @@
 "seen": "2026-11-12"
 },
 "https://uni01rtmp.tulix.tv/playout2multi9/lavozdemaria.stream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -89358,7 +89381,7 @@
 "seen": "2026-11-12"
 },
 "https://unlimited1-us.dps.live/atv/atv.smil/atv/livestream2/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -89409,7 +89432,7 @@
 "seen": "2026-11-12"
 },
 "https://uprxstreamer.usu.edu:8022/": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -89430,7 +89453,7 @@
 "seen": "2026-11-12"
 },
 "https://us3.internet-radio.com/proxy/estudio72radio?mp=%2Fstream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -89616,7 +89639,7 @@
 "seen": "2026-11-12"
 },
 "https://usa6.fastcast4u.com/proxy/tholdahl2?mp=%2F1": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -90497,7 +90520,7 @@
 "seen": "2026-11-12"
 },
 "https://v1.tustreaming.cl:19360/vozdepoder/vozdepoder.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -90536,7 +90559,7 @@
 "seen": "2026-11-12"
 },
 "https://v3.siar.us/humabetangtv/live/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -90553,7 +90576,7 @@
 "seen": "2026-11-12"
 },
 "https://v6.siar.us/pujatv/live/chunks.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -90565,13 +90588,13 @@
 "seen": "2026-11-12"
 },
 "https://vdo.pro-fhi.net:3605/live/dgenlcpmlive.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://versatile-wildsidetv-1-fr.samsung.wurl.tv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
@@ -90713,19 +90736,19 @@
 "seen": "2026-11-12"
 },
 "https://vidcdn.vidgyor.com/asianet-origin/liveabr/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://vidcdn.vidgyor.com/ptm-origin/aslive/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://vidcdn.vidgyor.com/suvarna-origin/liveabr/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -90736,15 +90759,15 @@
 "seen": "2026-11-12"
 },
 "https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "bad status",
 "seen": "2026-11-12"
 },
 "https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
-"reason": "bad status",
+"reason": "ошибка: _ssl.c:994: The handshake operation timed out",
 "seen": "2026-11-12"
 },
 "https://video.govoritmoskva.ru/rufm/index.m3u8": {
@@ -90818,13 +90841,13 @@
 "seen": "2026-11-12"
 },
 "https://video.misistemareseller.com/Girasoltv/Girasoltv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://video.misistemareseller.com/corporationhc/corporationhc/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -90840,7 +90863,7 @@
 "seen": "2026-11-12"
 },
 "https://video.yementdy.tv/hls/yementoday_src.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -90861,7 +90884,7 @@
 "seen": "2026-11-12"
 },
 "https://video1.getstreamhosting.com:1936/8224/8224/chunklist_w1684483949.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -90887,19 +90910,19 @@
 "seen": "2026-11-12"
 },
 "https://video2.makrodigital.com/wuanplus/wuanplus/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://videohd.live:19360/8016/8016.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://videoserver.tmcreativos.com:19360/mbcrtzxnxd/mbcrtzxnxd.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -90925,13 +90948,13 @@
 "seen": "2026-11-12"
 },
 "https://videostudioris.sk/hls/tvs.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://viewhn.com/telemas/live/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -90972,7 +90995,7 @@
 "seen": "2026-11-12"
 },
 "https://vivrefm.ice.infomaniak.ch/vivrefm-128.mp3": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -91060,7 +91083,7 @@
 "seen": "2026-11-12"
 },
 "https://vstream-cdn.ch/hls/radio3i_720p/index.m3u8": {
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-12",
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -91071,7 +91094,7 @@
 "seen": "2026-11-12"
 },
 "https://vtvstream.vnews.mv/vtvlive/vmedia/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -91112,19 +91135,19 @@
 "seen": "2026-11-12"
 },
 "https://watch.haitilive.net/naktvhd/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -2] Name or service not known",
 "seen": "2026-11-12"
 },
 "https://waw2.artiyerelmedya.net/astv/bant1/chunks.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
 },
 "https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -3] Temporary failure in name resolution",
 "seen": "2026-11-12"
@@ -91300,7 +91323,7 @@
 "seen": "2026-11-12"
 },
 "https://welove90slive.radionoise.ro:9090/stream": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "ошибка: _ssl.c:994: The handshake operation timed out",
 "seen": "2026-11-12"
@@ -91331,7 +91354,7 @@
 "seen": "2026-11-12"
 },
 "https://wowza.iwi.radio/icecast-to-hls/ngrp:AwaFM.stream/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno -5] No address associated with hostname",
 "seen": "2026-11-12"
@@ -91347,7 +91370,7 @@
 "seen": "2026-11-12"
 },
 "https://wres.streamguys1.com/wres": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
 "seen": "2026-11-12"
@@ -91368,25 +91391,25 @@
 "seen": "2026-11-12"
 },
 "https://www.amasradio.com.ar:8443/stream": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://www.appradio.app:8105/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://www.appradio.app:8106/live": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: [Errno 111] Connection refused",
 "seen": "2026-11-12"
 },
 "https://www.chasquirouter.com/salida/sd/trivu.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -91467,7 +91490,7 @@
 "seen": "2026-11-12"
 },
 "https://www.ophanim.net:8444/s/7250/": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 502",
 "seen": "2026-11-12"
@@ -91513,7 +91536,7 @@
 "seen": "2026-11-12"
 },
 "https://www.radiorockfm.co.nz/listenlive": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "ошибка: timed out",
 "seen": "2026-11-12"
@@ -91544,7 +91567,7 @@
 "seen": "2026-11-12"
 },
 "https://www.streamvortex.com:8444/s/11120": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 401",
 "seen": "2026-11-12"
@@ -91560,13 +91583,13 @@
 "seen": "2026-11-12"
 },
 "https://www.televinterserver.com:19360/crtvcholuteca/crtvcholuteca.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://www.theclubfactory.com/streaming/index.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 403",
 "seen": "2026-11-12"
@@ -91592,7 +91615,7 @@
 "seen": "2026-11-12"
 },
 "https://xmaslive.radionoise.ro:9150/stream": {
-"fails": 3,
+"fails": 4,
 "last_ok": "2026-11-11",
 "reason": "ошибка: _ssl.c:994: The handshake operation timed out",
 "seen": "2026-11-12"
@@ -91623,13 +91646,13 @@
 "seen": "2026-11-12"
 },
 "https://yayin30.haber100.com/live/agrotv/chunklist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
 },
 "https://yayin30.haber100.com/live/rehbertv/playlist.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 404",
 "seen": "2026-11-12"
@@ -91655,37 +91678,37 @@
 "seen": "2026-11-12"
 },
 "https://yleradiolive.akamaized.net/hls/live/2027674/in-YleX/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://yleradiolive.akamaized.net/hls/live/2027676/in-YleKlassinen/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://yleradiolive.akamaized.net/hls/live/2027680/in-YleSami/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://yleradiolive.akamaized.net/hls/live/2027708/in-YleKotka/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://yleradiolive.akamaized.net/hls/live/2027711/in-YleLPR/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
 },
 "https://yleradiolive.akamaized.net/hls/live/2027720/in-YleTurku/master.m3u8": {
-"fails": 4,
+"fails": 5,
 "last_ok": null,
 "reason": "HTTP 400",
 "seen": "2026-11-12"
