@@ -13,7 +13,8 @@ build.py - ежедневная сборка IPTV: плейлисты -> фил�
  7. запись плейлистов, index.html, report.txt, unmatched_epg.txt в dist/
 """
 import argparse, difflib, gzip, http.client, json, lzma, os, re, shutil, socket, sys, tempfile
-import threading, time, urllib.error, urllib.request
+import ssl, threading, time, urllib.error, urllib.parse, urllib.request
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -138,7 +139,7 @@ def split_info(line):
 
 class Ch:
     __slots__ = ("name", "attrs", "extra", "url", "src", "prio", "radio", "group", "orig_group",
-                 "cid", "norm", "logo", "order")
+                 "cid", "norm", "logo", "order", "q")
 
     def __init__(self):
         self.logo = ""
@@ -193,8 +194,101 @@ def fetch_source(src, snap_dir):
         raise
 
 
+# ------------------------------------------------------------ токены / блок-листы
+TOKEN_KEYS = {"token", "tokens", "tkn", "key", "apikey", "api_key", "auth", "authorization", "sign", "signature",
+              "sig", "wmsauthsign", "hdnts", "hdnea", "hash", "hmac", "expires", "expire", "exp", "jwt", "session",
+              "sid", "secret", "pass", "password", "passwd", "username", "user", "login", "md5", "nimblesessionid"}
+EXPIRY_KEYS = {"e", "exp", "expires", "expire", "expiry", "end", "until", "valid", "validto", "ts", "time", "timestamp", "t", "st"}
+LONG_VAL = re.compile(r"^[A-Za-z0-9_\-\.=+/%]{40,}$")
+XTREAM = re.compile(r"^/(live|movie|series)/[^/]+/[^/]+/\d+\.(ts|m3u8)$", re.I)
+
+
+def token_reason(url):
+    """Почему ссылка 'сложная' (быстро протухает), либо ''."""
+    try:
+        u = urllib.parse.urlsplit(url)
+    except ValueError:
+        return ""
+    if "@" in u.netloc:
+        return "логин:пароль в ссылке"
+    if XTREAM.match(u.path):
+        return "xtream логин/пароль"
+    for k, v in urllib.parse.parse_qsl(u.query, keep_blank_values=True):
+        kl = k.lower()
+        if kl in TOKEN_KEYS:
+            return f"параметр {kl}"
+        if kl in EXPIRY_KEYS and re.fullmatch(r"\d{10}|\d{13}", v):
+            return f"срок действия ({kl})"
+        if LONG_VAL.match(v):
+            return "длинный ключ в параметре"
+    return ""
+
+
+def canon(url):
+    """Ключ ссылки без токенов и сроков: переживает смену токена."""
+    try:
+        u = urllib.parse.urlsplit(url.strip())
+    except ValueError:
+        return url
+    keep = []
+    for k, v in urllib.parse.parse_qsl(u.query, keep_blank_values=True):
+        kl = k.lower()
+        if kl in TOKEN_KEYS or kl in EXPIRY_KEYS or kl == "s" or LONG_VAL.match(v):
+            continue
+        keep.append((kl, v))
+    q = urllib.parse.urlencode(sorted(keep))
+    return f"{u.netloc.lower()}{u.path.rstrip('/')}" + (f"?{q}" if q else "")
+
+
+def load_blocked(path):
+    """TSV (формат removed_channels.tsv): 3-я колонка = ссылка."""
+    keys = set()
+    if not path.exists():
+        return keys
+    for ln in decode(path.read_bytes()).splitlines():
+        parts = ln.rstrip("\r\n").split("\t")
+        if len(parts) >= 3 and re.match(r"^[a-z]+://", parts[2].strip(), re.I):
+            keys.add(canon(parts[2]))
+    return keys
+
+
+def load_delete_groups(path):
+    exact, rxs = set(), []
+    if not path.exists():
+        return exact, rxs
+    for ln in decode(path.read_bytes()).splitlines():
+        ln = ln.strip()
+        if not ln or ln.startswith("#"):
+            continue
+        if len(ln) >= 3 and ln.startswith("/") and ln.endswith("/"):
+            rxs.append(re.compile(ln[1:-1], re.I))
+        else:
+            exact.add(ln.casefold())
+    return exact, rxs
+
+
+def quality(name):
+    n = name.lower()
+    if re.search(r"\b(4k|uhd|2160)", n):
+        return 4
+    if re.search(r"\b(fhd|full ?hd|1080[pi]?)\b", n):
+        return 3
+    if re.search(r"\b(hd|720[pi]?)\b", n):
+        return 2
+    if re.search(r"\b(sd|480[pi]?|576[pi]?|360[pi]?|lq)\b", n):
+        return 0
+    return 1
+
+
 # ------------------------------------------------------------ проверка потоков
 started, lock = {}, threading.Lock()
+CTX = ssl.create_default_context()      # проверка потоков: просроченный/кривой сертификат не считаем смертью канала
+CTX.check_hostname = False
+CTX.verify_mode = ssl.CERT_NONE
+
+
+def safe_url(u):
+    return u.replace(" ", "%20")
 
 
 def check(url, headers, timeout):
@@ -206,8 +300,8 @@ def check(url, headers, timeout):
     reason = "?"
     for attempt in range(2):
         try:
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=timeout) as r:
+            req = urllib.request.Request(safe_url(url), headers=headers)
+            with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
                 if r.status >= 400:
                     return False, f"HTTP {r.status}"
                 data = r.read1(4096) if hasattr(r, "read1") else r.read(1024)
@@ -507,8 +601,16 @@ def main():
     ap.add_argument("--no-epg", action="store_true")
     a = ap.parse_args()
 
-    src_cfg = load_yaml(Path(a.config_dir) / "sources.yml")
-    rules = load_yaml(Path(a.config_dir) / "rules.yml")
+    cdir = Path(a.config_dir)
+    src_cfg = load_yaml(cdir / "sources.yml")
+    rules = load_yaml(cdir / "rules.yml")
+    if (cdir / "playlists.yml").exists():
+        src_cfg["sources"] = load_yaml(cdir / "playlists.yml").get("sources") or []
+    if not src_cfg.get("sources"):
+        sys.exit("Нет источников плейлистов (config/playlists.yml)")
+    del_exact, del_rx = load_delete_groups(cdir / "delete_groups.txt")
+    blocked = load_blocked(cdir / "blocked_channels.tsv")
+    log(f"Списки: delete_groups {len(del_exact) + len(del_rx)} строк, blocked_channels {len(blocked)} ссылок")
     st = rules["settings"]
     state_dir, dist = Path(a.state_dir), Path(a.dist)
     snap_dir = state_dir / "snapshots"
@@ -523,7 +625,7 @@ def main():
     log("== 1. Загрузка плейлистов")
     entries, stats = [], {}
     for prio, s in enumerate(src_cfg["sources"]):
-        stats[s["name"]] = {"total": 0, "excluded": 0, "dup_url": 0, "dead": 0, "kept": 0, "mode": "-"}
+        stats[s["name"]] = {"total": 0, "excluded": 0, "dup_url": 0, "dead": 0, "kept": 0, "dupes": 0, "mode": "-"}
         try:
             text, mode = fetch_source(s, snap_dir)
         except Exception as e:
@@ -570,17 +672,36 @@ def main():
     log("\n== 2. Фильтр по маскам и дедуп ссылок")
     ex = rules.get("exclude") or {}
     ex_g, ex_n, ex_u, keep_n = rx(ex.get("group")), rx(ex.get("name")), rx(ex.get("url")), rx(ex.get("keep_names"))
-    seen_url, kept = {}, []
+    tok_on = ex.get("tokens", True)
+    allow_tok = {s["name"] for s in src_cfg["sources"] if s.get("allow_tokens")}
+    seen_url, kept, n_tok, n_del = {}, [], 0, 0
+
+    def in_delete_groups(c):
+        for g in (c.orig_group, c.group):
+            if g and (g.casefold() in del_exact or any_rx(del_rx, g)):
+                return True
+        return False
+
     for c in entries:
-        if not any_rx(keep_n, c.name) and (any_rx(ex_g, c.orig_group) or any_rx(ex_g, c.group)
-                                           or any_rx(ex_n, c.name) or any_rx(ex_u, c.url)):
+        keep_by_name = any_rx(keep_n, c.name)
+        if not keep_by_name and (any_rx(ex_g, c.orig_group) or any_rx(ex_g, c.group)
+                                 or any_rx(ex_n, c.name) or any_rx(ex_u, c.url)):
             stats[c.src]["excluded"] += 1
+            continue
+        if in_delete_groups(c):
+            stats[c.src]["excluded"] += 1
+            n_del += 1
+            continue
+        if tok_on and c.src not in allow_tok and not keep_by_name and token_reason(c.url):
+            stats[c.src]["excluded"] += 1
+            n_tok += 1
             continue
         if c.url in seen_url:
             stats[c.src]["dup_url"] += 1
             continue
         seen_url[c.url] = c.src
         kept.append(c)
+    log(f"  из них по delete_groups: {n_del}, ссылки с токенами/ключами: {n_tok}")
     log(f"  было {len(entries)}, исключено масками {sum(v['excluded'] for v in stats.values())}, "
         f"дублей URL {sum(v['dup_url'] for v in stats.values())}, осталось {len(kept)}")
 
@@ -590,32 +711,67 @@ def main():
     nocheck = {s["name"] for s in src_cfg["sources"] if s.get("check") is False}
     if not a.no_check:
         log("\n== 3. Проверка потоков")
-        jobs = {c.url: hdrs(c) for c in kept if c.src not in nocheck}
+        jobs = {c.url: hdrs(c) for c in kept if c.src not in nocheck and canon(c.url) not in blocked}
         log(f"  к проверке: {len(jobs)} (источники без проверки: {', '.join(sorted(nocheck)) or '-'})")
         results = run_checks(jobs, st["check"])
         update_health(health, results, seen_url, st["check"])
         state_dir.mkdir(parents=True, exist_ok=True)
         health_p.write_text(json.dumps(health, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
     thr = st["check"]["fail_threshold"]
-    alive = []
+    alive, dead = [], []
     for c in kept:
-        if c.src in nocheck or is_alive(health.get(c.url), thr):
+        if canon(c.url) in blocked:
+            dead.append(c)                       # недоступен из домашней сети (blocked_channels.tsv)
+        elif c.src in nocheck or is_alive(health.get(c.url), thr):
             alive.append(c)
         else:
-            stats[c.src]["dead"] += 1
-    log(f"  живых/оставленных: {len(alive)}, удалено мёртвых: {len(kept) - len(alive)}")
+            dead.append(c)
+    for c in dead:
+        stats[c.src]["dead"] += 1
+    log(f"  живых/оставленных: {len(alive)}, удалено мёртвых: {len(dead)}")
+
+    # ---- 3б. группы, где недоступно > ratio каналов, удаляются целиком
+    dg = st["dead_groups"]
+    gtot, gdead = Counter(), Counter()
+    for c in kept:
+        k = c.orig_group or c.group
+        gtot[k] += 1
+    for c in dead:
+        gdead[c.orig_group or c.group] += 1
+    bad_groups = {g for g, n in gtot.items()
+                  if g and n >= dg["min_channels"] and gdead[g] / n > dg["ratio"]}
+    dead_report = []
+    if bad_groups:
+        before = len(alive)
+        alive = [c for c in alive if (c.orig_group or c.group) not in bad_groups]
+        for g in sorted(bad_groups):
+            dead_report.append(f"{g}\t{gdead[g]}/{gtot[g]}")
+        log(f"  групп удалено целиком (> {int(dg['ratio'] * 100)}% недоступно): {len(bad_groups)}, "
+            f"вместе с ещё живыми каналами: {before - len(alive)}")
+        for line in dead_report:
+            log("    - " + line.replace("\t", "  "))
 
     # ---- 5. дедуп по имени
-    byname, final = {}, []
+    byname, final, dupes = {}, [], []
     for c in alive:
         byname.setdefault((c.radio, c.norm), []).append(c)
-    mv = st["max_variants"]
+    dcfg = st["dupes"]
+    n_lowq = 0
     for lst in byname.values():
+        for c in lst:
+            c.q = quality(c.name)
+        if st["quality"]["prefer_hd"]:
+            best = max(c.q for c in lst)
+            if best >= 2:                       # есть HD - обычные версии не нужны
+                n_lowq += sum(1 for c in lst if c.q < best)
+                lst[:] = [c for c in lst if c.q == best]
         lst.sort(key=lambda c: (c.prio, c.order))
-        for i, c in enumerate(lst[:mv]):
-            if i:
-                c.name = f"{c.name} ({i + 1})"
-            final.append(c)
+        final.append(lst[0])
+        for i, c in enumerate(lst[1:1 + dcfg["max_per_channel"]], 2):
+            c.name = f"{c.name} ({i})"
+            dupes.append(c)
+            stats[c.src]["dupes"] += 1
+    log(f"  обычных версий удалено из-за HD: {n_lowq}, дублей в {dcfg['file']}: {len(dupes)}")
     order = {g: i for i, g in enumerate(gcfg.get("order") or [])}
     final.sort(key=lambda c: (order.get(c.group, 999), c.group, c.order))
     for c in final:
@@ -671,10 +827,17 @@ def main():
         o["_count"] = len(chs)
         log(f"  {o['file']}: {len(chs)} каналов")
 
+    dupes.sort(key=lambda c: (order.get(c.group, 999), c.group, c.order))
+    write_playlist(dist / dcfg["file"], dupes, "")
+    log(f"  {dcfg['file']}: {len(dupes)} каналов (дубли)")
+    (dist / "dead_groups.txt").write_text(
+        "# группы, удалённые целиком (недоступно > порога): группа, недоступно/всего\n"
+        "# добавь нужные в config/delete_groups.txt, чтобы они не проверялись вообще\n"
+        + "\n".join(dead_report) + ("\n" if dead_report else ""), encoding="utf-8")
     rep = [f"Сборка {NOW:%Y-%m-%d %H:%M} UTC, {int(time.time() - t0)} с", ""]
-    rep.append(f"{'источник':26}{'режим':9}{'всего':>7}{'маски':>7}{'дубли':>7}{'мёртв':>7}{'в итоге':>9}")
+    rep.append(f"{'источник':26}{'режим':9}{'всего':>7}{'маски':>7}{'=URL':>7}{'мёртв':>7}{'в итоге':>9}{'в dupes':>9}")
     for n, v in stats.items():
-        rep.append(f"{n:26}{v['mode']:9}{v['total']:>7}{v['excluded']:>7}{v['dup_url']:>7}{v['dead']:>7}{v['kept']:>9}")
+        rep.append(f"{n:26}{v['mode']:9}{v['total']:>7}{v['excluded']:>7}{v['dup_url']:>7}{v['dead']:>7}{v['kept']:>9}{v['dupes']:>9}")
     by_group = {}
     for c in final:
         by_group[c.group] = by_group.get(c.group, 0) + 1
@@ -682,13 +845,13 @@ def main():
             f"EPG: {len(matched)} каналов с программой"]
     (dist / "report.txt").write_text("\n".join(rep) + "\n", encoding="utf-8")
     rows = "".join(f'<li><a href="{o["file"]}">{o["file"]}</a> - {o["_count"]} каналов</li>' for o in rules["outputs"])
-    extra = ""
+    extra = f'<li><a href="{dcfg["file"]}">{dcfg["file"]}</a> - {len(dupes)} каналов (дубли)</li>'
     if epg_files:
         extra = '<li><a href="epg.xml.gz">epg.xml.gz</a></li><li><a href="epg_lite.xml.gz">epg_lite.xml.gz</a></li>'
     (dist / "index.html").write_text(
         f'<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
         f"<title>IPTV</title><h1>IPTV</h1><p>Обновлено {NOW:%Y-%m-%d %H:%M} UTC</p><ul>{rows}{extra}"
-        f'<li><a href="report.txt">report.txt</a></li><li><a href="unmatched_epg.txt">unmatched_epg.txt</a></li></ul>',
+        f'<li><a href="report.txt">report.txt</a></li><li><a href="unmatched_epg.txt">unmatched_epg.txt</a></li><li><a href="dead_groups.txt">dead_groups.txt</a></li></ul>',
         encoding="utf-8")
     log("\n".join(rep))
     sys.stdout.flush()

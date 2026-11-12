@@ -4,48 +4,7 @@
 publish:
   base_url: https://brandmauer.github.io/iptv   # откуда будут доступны результаты (GitHub Pages)
 
-# ---- плейлисты ----
-# check: false      - не проверять потоки (если они недоступны с серверов GitHub, напр. гео/локальная сеть)
-# force_group: X    - все каналы источника кладутся в группу X
-# radio: true       - все каналы источника считаются радио
-sources:
-  - name: iptv-org-rus
-    url: https://iptv-org.github.io/iptv/languages/rus.m3u
-
-  - name: koptevo
-    url: http://www.koptevo.net/iptv/IPTV.m3u
-    check: false          # скорее всего потоки доступны только внутри сети провайдера
-
-  - name: dimonovich-rutube
-    # ВНИМАНИЕ: в ссылке пустое имя файла (".../FREE/.m3u"). Проверь точное имя файла в репозитории Dimonovich/TV.
-    url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/.m3u
-    force_group: Rutube
-
-  - name: dimonovich-tv
-    url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV
-
-  - name: dimonovich-films
-    url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/FILMS.m3u
-    force_group: Фильмы
-
-  - name: dimonovich-radio-genres
-    url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/RADIO_GENRES.m3u
-    radio: true
-
-  - name: dimonovich-radio
-    url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/RADIO.m3u
-    radio: true
-
-  - name: dimonovich-camera
-    url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/CAMERA
-    force_group: Камеры
-
-  - name: dimonovich-zarub
-    url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/ZARUB
-    force_group: Зарубежные
-
-  - name: dimonovich-starnet
-    url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/Starnet.m3u
+# Плейлисты теперь в config/playlists.yml (добавление/удаление - через workflow manage-sources).
 
 # ---- телегид (XMLTV). Порядок = приоритет: канал берёт программу из первого
 #      источника, где нашёлся И есть передачи. Недоступный источник пропускается. ----

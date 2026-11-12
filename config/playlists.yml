@@ -1,0 +1,34 @@
+# Источники плейлистов. ЭТОТ ФАЙЛ МЕНЯЕТ workflow 'manage-sources' (Actions -> Run workflow),
+# можно править и руками. Порядок = приоритет при дублях.
+# check: false      - не проверять потоки (закрытые по гео / локальная сеть)
+# force_group: X    - все каналы источника в группу X
+# radio: true       - источник = радио
+# allow_tokens: true - не удалять ссылки с токенами из этого источника
+sources:
+- name: iptv-org-rus
+  url: https://iptv-org.github.io/iptv/languages/rus.m3u
+- name: koptevo
+  url: http://www.koptevo.net/iptv/IPTV.m3u
+  check: false
+- name: dimonovich-rutube
+  url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/.m3u
+  force_group: Rutube
+- name: dimonovich-tv
+  url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV
+- name: dimonovich-films
+  url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/FILMS.m3u
+  force_group: Фильмы
+- name: dimonovich-radio-genres
+  url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/RADIO_GENRES.m3u
+  radio: true
+- name: dimonovich-radio
+  url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/RADIO.m3u
+  radio: true
+- name: dimonovich-camera
+  url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/CAMERA
+  force_group: Камеры
+- name: dimonovich-zarub
+  url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/ZARUB
+  force_group: Зарубежные
+- name: dimonovich-starnet
+  url: https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/Starnet.m3u

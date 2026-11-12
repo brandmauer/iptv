@@ -1,0 +1,43 @@
+# одна группа на строку; /регэксп/ = маска
+4K VIDEO (VPN)
+Animation;Family;Kids
+Animation;Kids
+Animation;Movies
+Auto
+Cooking
+HARDCORE
+HIP-HOP
+Itv.uz (🇺🇿)
+Kids
+Kids;Music
+METAL
+Music;Religious
+Ott Club+Реклама
+REGGAE/SKA
+Religious
+Shop
+Sports
+Детский
+Кинозалы 🍿 (VPN)
+Оргтехсервис (VPN)
+Спортивный
+Спорткомплекс 🏆
+Цитадель-Крым (VPN)
+↕️ Торрент ТВ ↕️
+📺 Usba TV
+🔺 INFO 🔺
+Сириус
+StarNet (VPN 🇳🇱)
+Kids;Science
+General;Religious
+Family;Series
+Entertainment;Outdoor
+Family;Movies
+Education;Lifestyle
+Education
+Documentary;Series
+Comedy;Family;Series
+Comedy;Family;Movies
+Classic;Music
+Relax
+Business;News
